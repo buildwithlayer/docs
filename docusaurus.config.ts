@@ -38,9 +38,6 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           routeBasePath: "/",
         },
         blog: {
@@ -83,6 +80,11 @@ const config: Config = {
         },
         { to: "/api", label: "API Reference", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://buildwithlayer.com",
+          label: "buildwithlayer.com",
+          position: "right",
+        },
       ],
     },
     footer: {

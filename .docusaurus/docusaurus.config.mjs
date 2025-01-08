@@ -27,7 +27,6 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "routeBasePath": "/"
         },
         "blog": {
@@ -74,6 +73,11 @@ export default {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
+        },
+        {
+          "href": "https://buildwithlayer.com",
+          "label": "buildwithlayer.com",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
