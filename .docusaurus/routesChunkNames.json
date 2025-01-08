@@ -42,12 +42,13 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/api-112": {
-    "__comp": "__comp---site-src-pages-api-tsx-251-e33",
+  "/api-4fb": {
+    "__comp": "__comp---theme-api-docf-0-a-77e",
     "__context": {
-      "plugin": "plugin---apia-74-5c6"
+      "plugin": "plugin---openapi-6-ba-f07"
     },
-    "config": "config---api-5-e-9-841"
+    "specProps": "specProps---openapi-77-b-006",
+    "layoutProps": "layoutProps---openapi-ff-4-a34"
   },
   "/blog-94f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
@@ -164,22 +165,22 @@
     ],
     "__props": "__props---blog-tags-sql-alchemy-8-ab-d44"
   },
-  "/-4b2": {
+  "/-c09": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-935": {
+  "/-1b1": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-fa8": {
+  "/-366": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/category/deployments-4e6": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-deploymentsb-4-d-17c"
+  "/deployments/-3f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---deployments-189-d67"
   },
   "/deployments/copilot-8a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -203,6 +204,6 @@
   },
   "/-fc9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---intro-0-e-3-7b8"
+    "content": "content---0-e-3-279"
   }
 }

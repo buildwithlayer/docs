@@ -1,0 +1,23 @@
+{
+  "id": "deployments/index",
+  "title": "Deployments",
+  "description": "",
+  "source": "@site/docs/deployments/index.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/",
+  "permalink": "/deployments/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Web Widget",
+    "permalink": "/deployments/web-widget"
+  }
+}

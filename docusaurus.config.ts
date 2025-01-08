@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import type * as Redocusaurus from "redocusaurus";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -60,6 +61,30 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+    [
+      "redocusaurus",
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          // Pass it a path to a local OpenAPI YAML file
+          // {
+          //   // Redocusaurus will automatically bundle your spec into a single file during the build
+          //   spec: 'openapi/index.yaml',
+          //   route: '/api/',
+          // },
+          // You can also pass it a OpenAPI spec URL
+          {
+            spec: "https://api.buildwithlayer.com/openapi.json",
+            route: "/api",
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: "#7b65ff",
+        },
+      },
+    ] satisfies Redocusaurus.PresetEntry,
   ],
 
   themeConfig: {

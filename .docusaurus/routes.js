@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/api',
-    component: ComponentCreator('/api', '112'),
+    component: ComponentCreator('/api', '4fb'),
     exact: true
   },
   {
@@ -94,19 +94,19 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '4b2'),
+    component: ComponentCreator('/', 'c09'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '935'),
+        component: ComponentCreator('/', '1b1'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'fa8'),
+            component: ComponentCreator('/', '366'),
             routes: [
               {
-                path: '/category/deployments',
-                component: ComponentCreator('/category/deployments', '4e6'),
+                path: '/deployments/',
+                component: ComponentCreator('/deployments/', '3f1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

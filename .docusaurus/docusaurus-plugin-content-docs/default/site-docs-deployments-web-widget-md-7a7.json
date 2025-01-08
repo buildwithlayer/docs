@@ -17,7 +17,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Deployments",
-    "permalink": "/category/deployments"
+    "permalink": "/deployments/"
   },
   "next": {
     "title": "VS Code Extension",

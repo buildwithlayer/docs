@@ -47,6 +47,20 @@ export default {
           "customCss": "./src/css/custom.css"
         }
       }
+    ],
+    [
+      "redocusaurus",
+      {
+        "specs": [
+          {
+            "spec": "https://api.buildwithlayer.com/openapi.json",
+            "route": "/api"
+          }
+        ],
+        "theme": {
+          "primaryColor": "#7b65ff"
+        }
+      }
     ]
   ],
   "themeConfig": {
