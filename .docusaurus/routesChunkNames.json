@@ -45,10 +45,10 @@
   "/api-4fb": {
     "__comp": "__comp---theme-api-docf-0-a-77e",
     "__context": {
-      "plugin": "plugin---openapi-6-ba-f07"
+      "plugin": "plugin---api-6-ba-f80"
     },
-    "specProps": "specProps---openapi-77-b-006",
-    "layoutProps": "layoutProps---openapi-ff-4-a34"
+    "specProps": "specProps---api-77-b-327",
+    "layoutProps": "layoutProps---apiff-4-5ed"
   },
   "/blog-94f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
