@@ -1,0 +1,27 @@
+{
+  "id": "deployments/web-widget",
+  "title": "Web Widget",
+  "description": "",
+  "source": "@site/docs/deployments/web-widget.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/web-widget",
+  "permalink": "/deployments/web-widget",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deployments/web-widget.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployments",
+    "permalink": "/category/deployments"
+  },
+  "next": {
+    "title": "VS Code Extension",
+    "permalink": "/deployments/vs-code"
+  }
+}

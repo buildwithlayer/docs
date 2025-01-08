@@ -1,0 +1,27 @@
+{
+  "id": "deployments/vs-code",
+  "title": "VS Code Extension",
+  "description": "",
+  "source": "@site/docs/deployments/vs-code.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/vs-code",
+  "permalink": "/deployments/vs-code",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deployments/vs-code.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Widget",
+    "permalink": "/deployments/web-widget"
+  },
+  "next": {
+    "title": "GitHub Copilot Extension",
+    "permalink": "/deployments/copilot"
+  }
+}

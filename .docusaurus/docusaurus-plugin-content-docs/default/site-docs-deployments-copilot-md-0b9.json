@@ -1,0 +1,27 @@
+{
+  "id": "deployments/copilot",
+  "title": "GitHub Copilot Extension",
+  "description": "",
+  "source": "@site/docs/deployments/copilot.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/copilot",
+  "permalink": "/deployments/copilot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deployments/copilot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VS Code Extension",
+    "permalink": "/deployments/vs-code"
+  },
+  "next": {
+    "title": "ChatGPT GPT",
+    "permalink": "/deployments/gpt"
+  }
+}

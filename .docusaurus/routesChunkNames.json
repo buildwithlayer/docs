@@ -42,6 +42,13 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/api-112": {
+    "__comp": "__comp---site-src-pages-api-tsx-251-e33",
+    "__context": {
+      "plugin": "plugin---apia-74-5c6"
+    },
+    "config": "config---api-5-e-9-841"
+  },
   "/blog-94f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
@@ -157,75 +164,45 @@
     ],
     "__props": "__props---blog-tags-sql-alchemy-8-ab-d44"
   },
-  "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "content": "content---markdown-page-393-028"
-  },
-  "/docs-733": {
+  "/-4b2": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "plugin---aba-d70"
     }
   },
-  "/docs-7e6": {
+  "/-935": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__props": "__props---22-d-307"
   },
-  "/docs-ba6": {
+  "/-fa8": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/tutorial---basics-20e": {
+  "/category/deployments-4e6": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-tutorial-basicsc-8-a-e51"
+    "__props": "__props---category-deploymentsb-4-d-17c"
   },
-  "/docs/category/tutorial---extras-9ad": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-tutorial-extras-6-bb-a82"
-  },
-  "/docs/intro-61d": {
+  "/deployments/copilot-8a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "content": "content---deployments-copilot-0-b-9-853"
   },
-  "/docs/tutorial-basics/congratulations-458": {
+  "/deployments/gemini-069": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
+    "content": "content---deployments-gemini-31-a-40f"
   },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
+  "/deployments/gpt-7d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+    "content": "content---deployments-gpt-5-e-2-6a7"
   },
-  "/docs/tutorial-basics/create-a-document-8fc": {
+  "/deployments/vs-code-40e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+    "content": "content---deployments-vs-code-2-ae-715"
   },
-  "/docs/tutorial-basics/create-a-page-951": {
+  "/deployments/web-widget-e04": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+    "content": "content---deployments-web-widget-7-a-7-3e4"
   },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
+  "/-fc9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/docs/tutorial-basics/markdown-features-b05": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-978": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-f9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
-  },
-  "/-e5f": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "config": "config---5-e-9-4f3"
+    "content": "content---intro-0-e-3-7b8"
   }
 }

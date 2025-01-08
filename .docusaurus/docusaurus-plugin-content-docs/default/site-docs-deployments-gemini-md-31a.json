@@ -1,0 +1,23 @@
+{
+  "id": "deployments/gemini",
+  "title": "Google Gemini Tools",
+  "description": "",
+  "source": "@site/docs/deployments/gemini.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/gemini",
+  "permalink": "/deployments/gemini",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deployments/gemini.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ChatGPT GPT",
+    "permalink": "/deployments/gpt"
+  }
+}

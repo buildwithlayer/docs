@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Layer Documentation",
+  "tagline": "AI Answers Grounded in Your Docs",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
@@ -27,7 +27,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,
@@ -52,9 +53,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Layer",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Layer Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -62,65 +63,25 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Documentation"
+        },
+        {
+          "to": "/api",
+          "label": "API Reference",
+          "position": "left"
         },
         {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Layer. All rights reserved.",
+      "links": []
     },
     "prism": {
       "theme": {

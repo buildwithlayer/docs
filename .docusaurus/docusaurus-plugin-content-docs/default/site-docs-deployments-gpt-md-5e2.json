@@ -1,0 +1,27 @@
+{
+  "id": "deployments/gpt",
+  "title": "ChatGPT GPT",
+  "description": "",
+  "source": "@site/docs/deployments/gpt.md",
+  "sourceDirName": "deployments",
+  "slug": "/deployments/gpt",
+  "permalink": "/deployments/gpt",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deployments/gpt.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GitHub Copilot Extension",
+    "permalink": "/deployments/copilot"
+  },
+  "next": {
+    "title": "Google Gemini Tools",
+    "permalink": "/deployments/gemini"
+  }
+}
