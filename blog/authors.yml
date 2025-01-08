@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
+aham:
+  name: Andrew Hamilton
+  title: Software Engineer @ Layer
+  url: https://github.com/andrewlayer
+  image_url: https://avatars.githubusercontent.com/u/135887157?v=4
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+gpart:
+  name: Gavyn Partlow
+  title: Software Engineer @ Layer
+  url: https://github.com/GavynWithLayer
+  image_url: https://avatars.githubusercontent.com/u/151399782?v=4
+
+lgis:
+  name: Lucas Gismondi
+  title: Software Engineer @ Layer
+  url: https://github.com/lucasgismondi-gg
+  image_url: https://avatars.githubusercontent.com/u/121511329?v=4
+
+agill:
+  name: Ayaan Gill
+  title: UX Engineer @ Layer
+  url: https://github.com/ayaanglayer
+  image_url: https://avatars.githubusercontent.com/u/165331764?s=400&u=f48ff3e02dbe6b55351f2281b482cdaa96e0808c&v=4

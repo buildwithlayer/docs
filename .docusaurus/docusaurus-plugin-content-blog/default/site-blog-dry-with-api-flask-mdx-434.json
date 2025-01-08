@@ -1,0 +1,82 @@
+{
+  "permalink": "/blog/dry_with_apiflask",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/dry_with_api_flask.mdx",
+  "source": "@site/blog/dry_with_api_flask.mdx",
+  "title": "Keep Your Data DRY with APIFlask",
+  "description": "Lead Author: Gavyn",
+  "date": "2021-01-23T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "DRY",
+      "permalink": "/blog/tags/dry"
+    },
+    {
+      "inline": true,
+      "label": "APIFlask",
+      "permalink": "/blog/tags/api-flask"
+    },
+    {
+      "inline": true,
+      "label": "SQLAlchemy",
+      "permalink": "/blog/tags/sql-alchemy"
+    },
+    {
+      "inline": true,
+      "label": "Marshmallow",
+      "permalink": "/blog/tags/marshmallow"
+    },
+    {
+      "inline": true,
+      "label": "OneOfSchema",
+      "permalink": "/blog/tags/one-of-schema"
+    }
+  ],
+  "readingTime": 12.515,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Gavyn Partlow",
+      "title": "Software Engineer @ Layer",
+      "url": "https://github.com/GavynWithLayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/151399782?v=4",
+      "key": "gpart",
+      "page": null
+    },
+    {
+      "name": "Lucas Gismondi",
+      "title": "Software Engineer @ Layer",
+      "url": "https://github.com/lucasgismondi-gg",
+      "imageURL": "https://avatars.githubusercontent.com/u/121511329?v=4",
+      "key": "lgis",
+      "page": null
+    },
+    {
+      "name": "Andrew Hamilton",
+      "title": "Software Engineer @ Layer",
+      "url": "https://github.com/andrewlayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/135887157?v=4",
+      "key": "aham",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "dry_with_apiflask",
+    "title": "Keep Your Data DRY with APIFlask",
+    "authors": [
+      "gpart",
+      "lgis",
+      "aham"
+    ],
+    "date": "2021-01-23T00:00:00.000Z",
+    "descripion": "Lead by Gavyn, Co-authored by Lucas and Andrew",
+    "tags": [
+      "DRY",
+      "APIFlask",
+      "SQLAlchemy",
+      "Marshmallow",
+      "OneOfSchema"
+    ]
+  },
+  "unlisted": false
+}
