@@ -1,6 +1,6 @@
 {
   "id": "deployments/gemini",
-  "title": "Google Gemini Tools",
+  "title": "Google Gemini Tools (Coming Soon)",
   "description": "",
   "source": "@site/docs/deployments/gemini.md",
   "sourceDirName": "deployments",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ChatGPT GPT",
+    "title": "OpenAI GPTs (Coming Soon)",
     "permalink": "/deployments/gpt"
   }
 }

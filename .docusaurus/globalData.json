@@ -44,6 +44,41 @@
               "id": "intro",
               "path": "/",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/analytics",
+              "path": "/management-dashboard/analytics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/deploying",
+              "path": "/management-dashboard/deploying",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/index",
+              "path": "/management-dashboard/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/rag-config",
+              "path": "/management-dashboard/rag-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/rag-testing",
+              "path": "/management-dashboard/rag-testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/sources",
+              "path": "/management-dashboard/sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "management-dashboard/tools",
+              "path": "/management-dashboard/tools",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],

@@ -1,0 +1,8 @@
+{
+  "label": "Management Dashboard",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "management-dashboard/index"
+  }
+}

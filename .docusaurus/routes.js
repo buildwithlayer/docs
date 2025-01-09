@@ -94,15 +94,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c09'),
+    component: ComponentCreator('/', '797'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '1b1'),
+        component: ComponentCreator('/', '8b6'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '366'),
+            component: ComponentCreator('/', '246'),
             routes: [
               {
                 path: '/deployments/',
@@ -137,6 +137,48 @@ export default [
               {
                 path: '/deployments/web-widget',
                 component: ComponentCreator('/deployments/web-widget', 'e04'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/',
+                component: ComponentCreator('/management-dashboard/', 'c89'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/analytics',
+                component: ComponentCreator('/management-dashboard/analytics', 'dde'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/deploying',
+                component: ComponentCreator('/management-dashboard/deploying', '19b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/rag-config',
+                component: ComponentCreator('/management-dashboard/rag-config', 'c4f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/rag-testing',
+                component: ComponentCreator('/management-dashboard/rag-testing', '086'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/sources',
+                component: ComponentCreator('/management-dashboard/sources', 'd79'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/management-dashboard/tools',
+                component: ComponentCreator('/management-dashboard/tools', '96d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

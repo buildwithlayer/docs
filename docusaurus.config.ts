@@ -24,6 +24,16 @@ const config: Config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  scripts: [
+    {
+      src: "https://widget.buildwithlayer.com",
+      type: "text/javascript",
+      id: "layer-widget-script",
+      "api-key": "b962b39e-2fc6-4fa9-b1a0-82cc46db7481",
+      "palette-mode": "dark",
+    },
+  ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".

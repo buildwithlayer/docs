@@ -1,0 +1,23 @@
+{
+  "id": "management-dashboard/index",
+  "title": "Management Dashboard",
+  "description": "Management Dashboard Screenshot",
+  "source": "@site/docs/management-dashboard/index.md",
+  "sourceDirName": "management-dashboard",
+  "slug": "/management-dashboard/",
+  "permalink": "/management-dashboard/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Managing Sources",
+    "permalink": "/management-dashboard/sources"
+  }
+}

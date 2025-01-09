@@ -13,6 +13,15 @@ export default {
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
+  "scripts": [
+    {
+      "src": "https://widget.buildwithlayer.com",
+      "type": "text/javascript",
+      "id": "layer-widget-script",
+      "api-key": "b962b39e-2fc6-4fa9-b1a0-82cc46db7481",
+      "palette-mode": "dark"
+    }
+  ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -352,7 +361,6 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
-  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],

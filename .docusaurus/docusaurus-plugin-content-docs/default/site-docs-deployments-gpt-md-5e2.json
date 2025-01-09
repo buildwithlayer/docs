@@ -1,6 +1,6 @@
 {
   "id": "deployments/gpt",
-  "title": "ChatGPT GPT",
+  "title": "OpenAI GPTs (Coming Soon)",
   "description": "",
   "source": "@site/docs/deployments/gpt.md",
   "sourceDirName": "deployments",
@@ -20,7 +20,7 @@
     "permalink": "/deployments/copilot"
   },
   "next": {
-    "title": "Google Gemini Tools",
+    "title": "Google Gemini Tools (Coming Soon)",
     "permalink": "/deployments/gemini"
   }
 }
