@@ -1,7 +1,5 @@
 # Management Dashboard
 
-![Management Dashboard Screenshot](../../static/img/management-dashboard.jpeg)
-
 The **Management Dashboard** is the central hub for managing and configuring all aspects of your LLM extensions.
 
 From this dashboard, you can:
