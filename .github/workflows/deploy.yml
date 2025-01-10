@@ -27,3 +27,4 @@ jobs:
         with:
           service: ${{ vars.GOOGLE_CLOUD_RUN_SERVICE }}
           source: "."
+          env_vars_update_strategy: "overwrite"
