@@ -1,7 +1,7 @@
 {
   "id": "management-dashboard/index",
   "title": "Management Dashboard",
-  "description": "Management Dashboard Screenshot",
+  "description": "The Management Dashboard is the central hub for managing and configuring all aspects of your LLM extensions.",
   "source": "@site/docs/management-dashboard/index.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/",
