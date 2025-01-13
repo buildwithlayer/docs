@@ -1,6 +1,6 @@
 {
   "id": "deployments/index",
-  "title": "Deployments",
+  "title": "Deployment Surfaces",
   "description": "",
   "source": "@site/docs/deployments/index.md",
   "sourceDirName": "deployments",

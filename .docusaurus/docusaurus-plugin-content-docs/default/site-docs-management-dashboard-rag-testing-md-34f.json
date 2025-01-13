@@ -1,7 +1,7 @@
 {
   "id": "management-dashboard/rag-testing",
   "title": "Testing the RAG",
-  "description": "",
+  "description": "In order to validate that the Retrieval-Augmented Generation (RAG) system is providing accurate and relevant responses from your sources, you can test the chat in our Testing Widget. This helps ensure your developers receive the correct information when interacting with the AI-powered assistants deployed through Layer.",
   "source": "@site/docs/management-dashboard/rag-testing.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/rag-testing",
