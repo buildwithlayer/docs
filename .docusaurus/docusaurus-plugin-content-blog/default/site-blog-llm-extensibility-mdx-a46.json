@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/llm_extensibility",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/llm_extensibility.mdx",
+  "source": "@site/blog/llm_extensibility.mdx",
+  "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
+  "description": "Layer AI Blog | What Is LLM Extensibility?",
+  "date": "2025-01-28T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "LLM Extensibility",
+      "permalink": "/blog/tags/llm-extensibility"
+    }
+  ],
+  "readingTime": 5.7,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Jonah Katz",
+      "title": "CEO @ Layer",
+      "url": "https://www.linkedin.com/in/jonahkatz1/",
+      "imageURL": "https://media.licdn.com/dms/image/v2/D5603AQGcdwug9LunVA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727827703156?e=1743638400&v=beta&t=S4adBtUI5ELMYeuV-xjKvHl5lB8k6IaQ6T6gXhVvuuk",
+      "key": "jkatz",
+      "page": null
+    },
+    {
+      "name": "Andrew Hamilton",
+      "title": "Software Engineer @ Layer",
+      "url": "https://github.com/andrewlayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/135887157?v=4",
+      "key": "aham",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "llm_extensibility",
+    "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
+    "authors": [
+      "jkatz",
+      "aham"
+    ],
+    "date": "2025-01-28T00:00:00.000Z",
+    "descripion": "What is LLM Extensibility? Learn how devs, brands, and AI surfaces unify their workflows for real-time, reliable AI—without fragmented code or docs.",
+    "tags": [
+      "LLM Extensibility"
+    ],
+    "keywords": [
+      "LLM Extensibility"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Keep Your Data DRY with APIFlask",
+    "permalink": "/blog/dry_with_apiflask"
+  }
+}

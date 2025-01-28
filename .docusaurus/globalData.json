@@ -605,6 +605,33 @@
               ]
             }
           },
+          "/admin/sync": {
+            "get": {
+              "tags": [
+                "admin"
+              ],
+              "summary": "Sync Outdated Sources",
+              "operationId": "admin_sync_outdated_sources_get",
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                }
+              },
+              "security": [
+                {
+                  "OAuth2PasswordBearer": []
+                }
+              ]
+            }
+          },
           "/chat/vscode": {
             "post": {
               "tags": [
@@ -1274,7 +1301,7 @@
               ]
             }
           },
-          "/customers/transferring/{hashed_customer_id}": {
+          "/customers/transferring/{customer_hash}": {
             "get": {
               "tags": [
                 "customers"
@@ -1283,12 +1310,12 @@
               "operationId": "customers_get_customer_transferring_get",
               "parameters": [
                 {
-                  "name": "hashed_customer_id",
+                  "name": "customer_hash",
                   "in": "path",
                   "required": true,
                   "schema": {
                     "type": "string",
-                    "title": "Hashed Customer Id"
+                    "title": "Customer Hash"
                   }
                 }
               ],
@@ -1319,7 +1346,7 @@
               }
             }
           },
-          "/customers/{hashed_customer_id}": {
+          "/customers/{customer_hash}": {
             "patch": {
               "tags": [
                 "customers"
@@ -1333,12 +1360,12 @@
               ],
               "parameters": [
                 {
-                  "name": "hashed_customer_id",
+                  "name": "customer_hash",
                   "in": "path",
                   "required": true,
                   "schema": {
                     "type": "string",
-                    "title": "Hashed Customer Id"
+                    "title": "Customer Hash"
                   }
                 }
               ],
@@ -2354,6 +2381,62 @@
               ]
             }
           },
+          "/sources/llms": {
+            "post": {
+              "tags": [
+                "sources"
+              ],
+              "summary": "Create Sources From Llms Txt",
+              "operationId": "sources_create_sources_from_llms_txt_post",
+              "requestBody": {
+                "content": {
+                  "application/x-www-form-urlencoded": {
+                    "schema": {
+                      "$ref": "#/components/schemas/DocumentSourceCreate"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "items": {
+                          "$ref": "#/components/schemas/SimpleDocumentSourceCreate"
+                        },
+                        "type": "array",
+                        "title": "Response Sources Create Sources From Llms Txt Post"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
           "/sources/document/{source_id}": {
             "patch": {
               "tags": [
@@ -2570,6 +2653,51 @@
               }
             }
           },
+          "/sources/website/sync": {
+            "post": {
+              "tags": [
+                "sources"
+              ],
+              "summary": "Sync Multi Website Sources",
+              "operationId": "sources_sync_multi_website_sources_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/SyncMultiSiteRequest"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "204": {
+                  "description": "Successful Response"
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
           "/sources/website/sync/{source_id}/status": {
             "get": {
               "tags": [
@@ -2623,6 +2751,58 @@
               }
             }
           },
+          "/sources/website/sync/status": {
+            "post": {
+              "tags": [
+                "sources"
+              ],
+              "summary": "Get Multi Sync Website Status",
+              "operationId": "sources_get_multi_sync_website_status_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/SyncMultiSiteRequest"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/SyncMultiSiteStatus"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
           "/sources/delete": {
             "post": {
               "tags": [
@@ -2666,6 +2846,619 @@
                   "Layer Customer API Key": []
                 }
               ]
+            }
+          },
+          "/tasks/crawl_site": {
+            "post": {
+              "tags": [
+                "tasks"
+              ],
+              "summary": "Crawl Site",
+              "operationId": "tasks_crawl_site_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/CrawlSiteMessage"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
+          "/tasks/embed_site": {
+            "post": {
+              "tags": [
+                "tasks"
+              ],
+              "summary": "Embed Site",
+              "operationId": "tasks_embed_site_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/EmbedMultiSiteMessage"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
+          "/tasks/embed_github": {
+            "post": {
+              "tags": [
+                "tasks"
+              ],
+              "summary": "Embed Github",
+              "operationId": "tasks_embed_github_post",
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "token",
+                  "in": "query",
+                  "required": false,
+                  "schema": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "title": "Token"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/EmbedGitHubMessage"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/tasks/sync_site": {
+            "post": {
+              "tags": [
+                "tasks"
+              ],
+              "summary": "Sync Site",
+              "operationId": "tasks_sync_site_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/SyncSiteMessage"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
+          "/tools/": {
+            "get": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Get Tools",
+              "operationId": "tools_get_tools_get",
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "items": {
+                          "$ref": "#/components/schemas/Tool"
+                        },
+                        "type": "array",
+                        "title": "Response Tools Get Tools Get"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            },
+            "post": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Create Tool",
+              "operationId": "tools_create_tool_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/ToolCreate"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Tool"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ]
+            }
+          },
+          "/tools/{tool_id}": {
+            "get": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Get Tool",
+              "operationId": "tools_get_tool_get",
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "tool_id",
+                  "in": "path",
+                  "required": true,
+                  "schema": {
+                    "type": "integer",
+                    "title": "Tool Id"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Tool"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "patch": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Update Tool",
+              "operationId": "tools_update_tool_patch",
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "tool_id",
+                  "in": "path",
+                  "required": true,
+                  "schema": {
+                    "type": "integer",
+                    "title": "Tool Id"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/ToolUpdate"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Tool"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "delete": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Delete Tool",
+              "operationId": "tools_delete_tool_delete",
+              "security": [
+                {
+                  "Firebase Token": []
+                },
+                {
+                  "Layer Customer API Key": []
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "tool_id",
+                  "in": "path",
+                  "required": true,
+                  "schema": {
+                    "type": "integer",
+                    "title": "Tool Id"
+                  }
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "Successful Response"
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/tools/call": {
+            "post": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Call Tool",
+              "operationId": "tools_call_tool_post",
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/ToolCall"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/ToolMessage"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              },
+              "security": [
+                {
+                  "Layer API Key": []
+                }
+              ]
+            }
+          },
+          "/tools/call/{tool_id}": {
+            "post": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Call Tool By Id",
+              "operationId": "tools_call_tool_by_id_post",
+              "security": [
+                {
+                  "Layer API Key": []
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "tool_id",
+                  "in": "path",
+                  "required": true,
+                  "schema": {
+                    "type": "integer",
+                    "title": "Tool Id"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/ToolCall"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/ToolMessage"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/tools/convert_openapi": {
+            "post": {
+              "tags": [
+                "tools"
+              ],
+              "summary": "Convert Openapi To Tool Call",
+              "operationId": "tools_convert_openapi_to_tool_call_post",
+              "requestBody": {
+                "content": {
+                  "multipart/form-data": {
+                    "schema": {
+                      "$ref": "#/components/schemas/Body_tools_convert_openapi_to_tool_call_post"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "Successful Response",
+                  "content": {
+                    "application/json": {
+                      "schema": {}
+                    }
+                  }
+                },
+                "404": {
+                  "description": "Not found"
+                },
+                "422": {
+                  "description": "Validation Error",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/HTTPValidationError"
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "/web_widgets/": {
@@ -2890,6 +3683,21 @@
               ],
               "title": "Body_admin_login_post"
             },
+            "Body_tools_convert_openapi_to_tool_call_post": {
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "format": "binary",
+                  "title": "File",
+                  "description": "OpenAPI spec file"
+                }
+              },
+              "type": "object",
+              "required": [
+                "file"
+              ],
+              "title": "Body_tools_convert_openapi_to_tool_call_post"
+            },
             "Citation": {
               "properties": {
                 "name": {
@@ -3000,7 +3808,14 @@
                   "anyOf": [
                     {
                       "items": {
-                        "$ref": "#/components/schemas/Message"
+                        "anyOf": [
+                          {
+                            "$ref": "#/components/schemas/Message"
+                          },
+                          {
+                            "$ref": "#/components/schemas/ToolMessage"
+                          }
+                        ]
                       },
                       "type": "array"
                     },
@@ -3054,12 +3869,20 @@
                   },
                   "type": "array",
                   "title": "Citations"
+                },
+                "tool_calls": {
+                  "items": {
+                    "$ref": "#/components/schemas/ToolCall"
+                  },
+                  "type": "array",
+                  "title": "Tool Calls"
                 }
               },
               "type": "object",
               "required": [
                 "message",
-                "citations"
+                "citations",
+                "tool_calls"
               ],
               "title": "CompletionResponse"
             },
@@ -3133,6 +3956,45 @@
                 "job_key"
               ],
               "title": "CrawlResponse"
+            },
+            "CrawlSiteMessage": {
+              "properties": {
+                "job_key": {
+                  "type": "string",
+                  "title": "Job Key"
+                },
+                "customer_id": {
+                  "type": "integer",
+                  "title": "Customer Id"
+                },
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "format": "uri",
+                  "title": "Url"
+                },
+                "url_filters": {
+                  "anyOf": [
+                    {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Url Filters"
+                }
+              },
+              "type": "object",
+              "required": [
+                "job_key",
+                "customer_id",
+                "url"
+              ],
+              "title": "CrawlSiteMessage"
             },
             "CrawlSiteProgress": {
               "properties": {
@@ -3556,6 +4418,50 @@
               "type": "object",
               "title": "DocumentSourceUpdate"
             },
+            "EmbedGitHubMessage": {
+              "properties": {
+                "job_key": {
+                  "type": "string",
+                  "title": "Job Key"
+                },
+                "customer_id": {
+                  "type": "integer",
+                  "title": "Customer Id"
+                },
+                "token": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Token"
+                },
+                "owner": {
+                  "type": "string",
+                  "title": "Owner"
+                },
+                "repo": {
+                  "type": "string",
+                  "title": "Repo"
+                },
+                "file_path": {
+                  "type": "string",
+                  "title": "File Path"
+                }
+              },
+              "type": "object",
+              "required": [
+                "job_key",
+                "customer_id",
+                "owner",
+                "repo",
+                "file_path"
+              ],
+              "title": "EmbedGitHubMessage"
+            },
             "EmbedJobKeys": {
               "properties": {
                 "job_keys": {
@@ -3609,6 +4515,69 @@
                 "total"
               ],
               "title": "EmbedJobsProgress"
+            },
+            "EmbedMultiSiteMessage": {
+              "properties": {
+                "job_key": {
+                  "type": "string",
+                  "title": "Job Key"
+                },
+                "customer_id": {
+                  "type": "integer",
+                  "title": "Customer Id"
+                },
+                "sites": {
+                  "items": {
+                    "$ref": "#/components/schemas/EmbedSingleSiteMessage"
+                  },
+                  "type": "array",
+                  "title": "Sites"
+                }
+              },
+              "type": "object",
+              "required": [
+                "job_key",
+                "customer_id",
+                "sites"
+              ],
+              "title": "EmbedMultiSiteMessage"
+            },
+            "EmbedSingleSiteMessage": {
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "format": "uri",
+                  "title": "Url"
+                },
+                "collection_id": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Collection Id"
+                },
+                "name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Name"
+                }
+              },
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "title": "EmbedSingleSiteMessage"
             },
             "Extension": {
               "properties": {
@@ -3785,6 +4754,24 @@
               "type": "object",
               "title": "ExtensionUpdate"
             },
+            "FunctionCall": {
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "title": "Name"
+                },
+                "arguments": {
+                  "type": "string",
+                  "title": "Arguments"
+                }
+              },
+              "type": "object",
+              "required": [
+                "name",
+                "arguments"
+              ],
+              "title": "FunctionCall"
+            },
             "GitHubSourcesCreate": {
               "properties": {
                 "url": {
@@ -3845,6 +4832,40 @@
               ],
               "title": "Health"
             },
+            "JSONSchemaObject": {
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "object"
+                  ],
+                  "const": "object",
+                  "title": "Type",
+                  "default": "object"
+                },
+                "properties": {
+                  "type": "object",
+                  "title": "Properties"
+                },
+                "required": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array",
+                  "title": "Required"
+                },
+                "additionalProperties": {
+                  "type": "boolean",
+                  "title": "Additionalproperties",
+                  "default": false
+                }
+              },
+              "type": "object",
+              "required": [
+                "properties"
+              ],
+              "title": "JSONSchemaObject"
+            },
             "Message": {
               "properties": {
                 "role": {
@@ -3853,6 +4874,20 @@
                 "content": {
                   "type": "string",
                   "title": "Content"
+                },
+                "tool_calls": {
+                  "anyOf": [
+                    {
+                      "items": {
+                        "$ref": "#/components/schemas/ToolCall"
+                      },
+                      "type": "array"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Tool Calls"
                 }
               },
               "type": "object",
@@ -3870,6 +4905,20 @@
                 "content": {
                   "type": "string",
                   "title": "Content"
+                },
+                "tool_calls": {
+                  "anyOf": [
+                    {
+                      "items": {
+                        "$ref": "#/components/schemas/ToolCall"
+                      },
+                      "type": "array"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Tool Calls"
                 },
                 "citation": {
                   "anyOf": [
@@ -3939,9 +4988,21 @@
               "enum": [
                 "assistant",
                 "user",
-                "system"
+                "system",
+                "tool"
               ],
               "title": "MessageRole"
+            },
+            "MethodType": {
+              "type": "string",
+              "enum": [
+                "GET",
+                "PATCH",
+                "POST",
+                "PUT",
+                "DELETE"
+              ],
+              "title": "MethodType"
             },
             "NameCheck": {
               "properties": {
@@ -4060,6 +5121,26 @@
               ],
               "title": "SearchResponse"
             },
+            "SimpleDocumentSourceCreate": {
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "title": "Name"
+                },
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "format": "uri",
+                  "title": "Url"
+                }
+              },
+              "type": "object",
+              "required": [
+                "name",
+                "url"
+              ],
+              "title": "SimpleDocumentSourceCreate"
+            },
             "SourceEmbedding": {
               "properties": {
                 "id": {
@@ -4112,7 +5193,14 @@
                   "anyOf": [
                     {
                       "items": {
-                        "$ref": "#/components/schemas/Message"
+                        "anyOf": [
+                          {
+                            "$ref": "#/components/schemas/Message"
+                          },
+                          {
+                            "$ref": "#/components/schemas/ToolMessage"
+                          }
+                        ]
                       },
                       "type": "array"
                     },
@@ -4292,6 +5380,68 @@
               "type": "object",
               "title": "SuggestionSourceUpdate"
             },
+            "SyncMultiSiteRequest": {
+              "properties": {
+                "ids": {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array",
+                  "title": "Ids"
+                }
+              },
+              "type": "object",
+              "required": [
+                "ids"
+              ],
+              "title": "SyncMultiSiteRequest"
+            },
+            "SyncMultiSiteStatus": {
+              "properties": {
+                "statuses": {
+                  "additionalProperties": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/SyncStatus"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "type": "object",
+                  "title": "Statuses"
+                }
+              },
+              "type": "object",
+              "required": [
+                "statuses"
+              ],
+              "title": "SyncMultiSiteStatus"
+            },
+            "SyncSiteMessage": {
+              "properties": {
+                "job_key": {
+                  "type": "string",
+                  "title": "Job Key"
+                },
+                "customer_id": {
+                  "type": "integer",
+                  "title": "Customer Id"
+                },
+                "source_id": {
+                  "type": "integer",
+                  "title": "Source Id"
+                }
+              },
+              "type": "object",
+              "required": [
+                "job_key",
+                "customer_id",
+                "source_id"
+              ],
+              "title": "SyncSiteMessage"
+            },
             "SyncSiteStatus": {
               "properties": {
                 "status": {
@@ -4334,6 +5484,357 @@
                 "token_type"
               ],
               "title": "Token"
+            },
+            "Tool": {
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 64,
+                  "pattern": "^[a-zA-Z0-9_-]+$",
+                  "title": "Name"
+                },
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "format": "uri",
+                  "title": "Url"
+                },
+                "description": {
+                  "type": "string",
+                  "title": "Description"
+                },
+                "method": {
+                  "$ref": "#/components/schemas/MethodType"
+                },
+                "parameters": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/ToolArgumentsParameters-Output"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "strict": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Strict"
+                },
+                "id": {
+                  "type": "integer",
+                  "title": "Id"
+                },
+                "customer_id": {
+                  "type": "integer",
+                  "title": "Customer Id"
+                }
+              },
+              "type": "object",
+              "required": [
+                "name",
+                "url",
+                "description",
+                "method",
+                "id",
+                "customer_id"
+              ],
+              "title": "Tool"
+            },
+            "ToolArgumentsParameters-Input": {
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "object"
+                  ],
+                  "const": "object",
+                  "title": "Type",
+                  "default": "object"
+                },
+                "properties": {
+                  "$ref": "#/components/schemas/ToolArgumentsProperties"
+                },
+                "required": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array",
+                  "title": "Required"
+                },
+                "additionalProperties": {
+                  "type": "boolean",
+                  "title": "Additionalproperties",
+                  "default": false
+                }
+              },
+              "type": "object",
+              "required": [
+                "properties"
+              ],
+              "title": "ToolArgumentsParameters"
+            },
+            "ToolArgumentsParameters-Output": {
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "object"
+                  ],
+                  "const": "object",
+                  "title": "Type",
+                  "default": "object"
+                },
+                "properties": {
+                  "$ref": "#/components/schemas/ToolArgumentsProperties"
+                },
+                "required": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array",
+                  "title": "Required"
+                },
+                "additionalProperties": {
+                  "type": "boolean",
+                  "title": "Additionalproperties",
+                  "default": false
+                }
+              },
+              "type": "object",
+              "required": [
+                "properties"
+              ],
+              "title": "ToolArgumentsParameters"
+            },
+            "ToolArgumentsProperties": {
+              "properties": {
+                "path": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/JSONSchemaObject"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "query": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/JSONSchemaObject"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "body": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/JSONSchemaObject"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "auth": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/JSONSchemaObject"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "type": "object",
+              "title": "ToolArgumentsProperties"
+            },
+            "ToolCall": {
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "title": "Id"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "function"
+                  ],
+                  "const": "function",
+                  "title": "Type",
+                  "default": "function"
+                },
+                "function": {
+                  "$ref": "#/components/schemas/FunctionCall"
+                }
+              },
+              "type": "object",
+              "required": [
+                "id",
+                "function"
+              ],
+              "title": "ToolCall"
+            },
+            "ToolCreate": {
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 64,
+                  "pattern": "^[a-zA-Z0-9_-]+$",
+                  "title": "Name"
+                },
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "format": "uri",
+                  "title": "Url"
+                },
+                "description": {
+                  "type": "string",
+                  "title": "Description"
+                },
+                "method": {
+                  "$ref": "#/components/schemas/MethodType"
+                },
+                "parameters": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/ToolArgumentsParameters-Input"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "strict": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Strict"
+                }
+              },
+              "type": "object",
+              "required": [
+                "name",
+                "url",
+                "description",
+                "method"
+              ],
+              "title": "ToolCreate"
+            },
+            "ToolMessage": {
+              "properties": {
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "tool"
+                  ],
+                  "const": "tool",
+                  "title": "Role",
+                  "default": "tool"
+                },
+                "content": {
+                  "type": "string",
+                  "title": "Content"
+                },
+                "tool_call_id": {
+                  "type": "string",
+                  "title": "Tool Call Id"
+                }
+              },
+              "type": "object",
+              "required": [
+                "content",
+                "tool_call_id"
+              ],
+              "title": "ToolMessage"
+            },
+            "ToolUpdate": {
+              "properties": {
+                "name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Name"
+                },
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "format": "uri"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Url"
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Description"
+                },
+                "method": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/MethodType"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "parameters": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/ToolArgumentsParameters-Input"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "strict": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Strict"
+                }
+              },
+              "type": "object",
+              "title": "ToolUpdate"
             },
             "VSCodeCompletionRequest": {
               "properties": {

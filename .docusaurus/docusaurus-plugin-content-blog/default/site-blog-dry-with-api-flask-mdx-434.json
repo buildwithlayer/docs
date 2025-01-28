@@ -78,5 +78,9 @@
       "OneOfSchema"
     ]
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
+    "permalink": "/blog/llm_extensibility"
+  }
 }

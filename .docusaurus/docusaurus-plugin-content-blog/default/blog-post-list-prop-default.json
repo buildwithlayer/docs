@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
+      "permalink": "/blog/llm_extensibility",
+      "unlisted": false,
+      "date": "2025-01-28T00:00:00.000Z"
+    },
+    {
       "title": "Keep Your Data DRY with APIFlask",
       "permalink": "/blog/dry_with_apiflask",
       "unlisted": false,

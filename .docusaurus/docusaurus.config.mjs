@@ -54,6 +54,9 @@ export default {
         },
         "theme": {
           "customCss": "./src/css/custom.css"
+        },
+        "gtag": {
+          "trackingID": "G-L3MG6PFSGM"
         }
       }
     ],
