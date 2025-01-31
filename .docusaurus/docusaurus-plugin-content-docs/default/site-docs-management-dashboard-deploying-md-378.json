@@ -5,7 +5,7 @@
   "source": "@site/docs/management-dashboard/deploying.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/deploying",
-  "permalink": "/management-dashboard/deploying",
+  "permalink": "/docs/management-dashboard/deploying",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 5
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "RAG Configuration",
-    "permalink": "/management-dashboard/rag-config"
+    "permalink": "/docs/management-dashboard/rag-config"
   },
   "next": {
     "title": "Analytics",
-    "permalink": "/management-dashboard/analytics"
+    "permalink": "/docs/management-dashboard/analytics"
   }
 }

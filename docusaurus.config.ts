@@ -11,17 +11,18 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.buildwithlayer.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "buildwithlayer", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  // onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   scripts: [
@@ -46,21 +47,18 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          routeBasePath: "/",
-        },
+        // docs: {
+        //   sidebarPath: "./sidebars.ts",
+        //   // Please change this to your repo.
+        //   routeBasePath: "/",
+        // },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          routeBasePath: "/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -74,30 +72,30 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
-    [
-      "redocusaurus",
-      {
-        // Plugin Options for loading OpenAPI files
-        specs: [
-          // Pass it a path to a local OpenAPI YAML file
-          // {
-          //   // Redocusaurus will automatically bundle your spec into a single file during the build
-          //   spec: 'openapi/index.yaml',
-          //   route: '/api/',
-          // },
-          // You can also pass it a OpenAPI spec URL
-          {
-            spec: "https://api.buildwithlayer.com/openapi.json",
-            route: "/api",
-          },
-        ],
-        // Theme Options for modifying how redoc renders them
-        theme: {
-          // Change with your site colors
-          primaryColor: "#7b65ff",
-        },
-      },
-    ] satisfies Redocusaurus.PresetEntry,
+    // [
+    //   "redocusaurus",
+    //   {
+    //     // Plugin Options for loading OpenAPI files
+    //     specs: [
+    //       // Pass it a path to a local OpenAPI YAML file
+    //       // {
+    //       //   // Redocusaurus will automatically bundle your spec into a single file during the build
+    //       //   spec: 'openapi/index.yaml',
+    //       //   route: '/api/',
+    //       // },
+    //       // You can also pass it a OpenAPI spec URL
+    //       {
+    //         spec: "https://api.buildwithlayer.com/openapi.json",
+    //         route: "/api",
+    //       },
+    //     ],
+    //     // Theme Options for modifying how redoc renders them
+    //     theme: {
+    //       // Change with your site colors
+    //       primaryColor: "#7b65ff",
+    //     },
+    //   },
+    // ] satisfies Redocusaurus.PresetEntry,
   ],
 
   themeConfig: {
@@ -110,14 +108,14 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Documentation",
-        },
-        { to: "/api", label: "API Reference", position: "left" },
-        { to: "/blog", label: "Blog", position: "left" },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Documentation",
+        // },
+        // { to: "/api", label: "API Reference", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://buildwithlayer.com",
           label: "buildwithlayer.com",

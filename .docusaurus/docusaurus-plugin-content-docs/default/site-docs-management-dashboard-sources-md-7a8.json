@@ -5,7 +5,7 @@
   "source": "@site/docs/management-dashboard/sources.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/sources",
-  "permalink": "/management-dashboard/sources",
+  "permalink": "/docs/management-dashboard/sources",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Management Dashboard",
-    "permalink": "/management-dashboard/"
+    "permalink": "/docs/management-dashboard/"
   },
   "next": {
     "title": "Managing Tools (Coming Soon)",
-    "permalink": "/management-dashboard/tools"
+    "permalink": "/docs/management-dashboard/tools"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/deployments/web-widget.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/web-widget",
-  "permalink": "/deployments/web-widget",
+  "permalink": "/docs/deployments/web-widget",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Deployment Surfaces",
-    "permalink": "/deployments/"
+    "permalink": "/docs/deployments/"
   },
   "next": {
     "title": "VS Code Extension",
-    "permalink": "/deployments/vs-code"
+    "permalink": "/docs/deployments/vs-code"
   }
 }

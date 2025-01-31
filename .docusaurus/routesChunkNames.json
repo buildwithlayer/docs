@@ -1,264 +1,213 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/archive-51a": {
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "36994c47"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "__props": "b266de79"
   },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/api-4fb": {
-    "__comp": "__comp---theme-api-docf-0-a-77e",
-    "__context": {
-      "plugin": "plugin---api-6-ba-f80"
-    },
-    "specProps": "specProps---api-77-b-327",
-    "layoutProps": "layoutProps---apiff-4-5ed"
-  },
-  "/blog-19f": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-428-edc"
-      },
-      {
-        "content": "content---blogd-2-e-24c"
-      }
-    ],
-    "__props": "__props---blogc-15-573"
-  },
-  "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "__props": "__props---blog-archivef-81-229"
-  },
-  "/blog/authors-0b7": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+  "/authors-498": {
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "sidebar": "814f3328",
+    "__props": "3f9ae9f6"
   },
-  "/blog/dry_with_apiflask-10a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/dry_with_apiflask-3ae": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-dry-with-apiflask-434-ba7"
+    "sidebar": "814f3328",
+    "content": "4349639d"
   },
-  "/blog/llm_extensibility-4fa": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/llm_extensibility-73b": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-llm-extensibilitya-46-ec1"
+    "sidebar": "814f3328",
+    "content": "a4613bc5"
   },
-  "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+  "/tags-626": {
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "c2a3e543"
   },
-  "/blog/tags/api-flask-e07": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/api-flask-c31": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-2-e-24c"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---blog-tags-api-flask-737-98e"
+    "__props": "f8a05aed"
   },
-  "/blog/tags/dry-612": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/dry-93d": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-2-e-24c"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---blog-tags-dryc-40-63f"
+    "__props": "ca915ce2"
   },
-  "/blog/tags/llm-extensibility-2fd": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/llm-extensibility-048": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-428-edc"
+        "content": "428968fa"
       }
     ],
-    "__props": "__props---blog-tags-llm-extensibilityc-99-514"
+    "__props": "794a8075"
   },
-  "/blog/tags/marshmallow-160": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/marshmallow-899": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-2-e-24c"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---blog-tags-marshmallow-2-fd-a09"
+    "__props": "f29450b4"
   },
-  "/blog/tags/one-of-schema-ca8": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/one-of-schema-4f0": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-2-e-24c"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---blog-tags-one-of-schemab-28-bcf"
+    "__props": "5b300c89"
   },
-  "/blog/tags/sql-alchemy-b95": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/sql-alchemy-889": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-2-e-24c"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---blog-tags-sql-alchemy-8-ab-d44"
+    "__props": "4d76ba38"
   },
-  "/-797": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/docs-704": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "aba21aa0"
     }
   },
-  "/-8b6": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+  "/docs-203": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
-  "/-246": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/docs-a5c": {
+    "__comp": "a94703ab"
   },
-  "/deployments/-3f1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-189-d67"
+  "/docs/-bc1": {
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
-  "/deployments/copilot-8a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-copilot-0-b-9-853"
+  "/docs/deployments/-102": {
+    "__comp": "17896441",
+    "content": "1899731c"
   },
-  "/deployments/gemini-069": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-gemini-31-a-40f"
+  "/docs/deployments/copilot-757": {
+    "__comp": "17896441",
+    "content": "0b9234f1"
   },
-  "/deployments/gpt-7d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-gpt-5-e-2-6a7"
+  "/docs/deployments/gemini-a47": {
+    "__comp": "17896441",
+    "content": "31a72f0f"
   },
-  "/deployments/vs-code-40e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-vs-code-2-ae-715"
+  "/docs/deployments/gpt-7b3": {
+    "__comp": "17896441",
+    "content": "5e299fad"
   },
-  "/deployments/web-widget-e04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---deployments-web-widget-7-a-7-3e4"
+  "/docs/deployments/vs-code-3ef": {
+    "__comp": "17896441",
+    "content": "2ae54794"
   },
-  "/management-dashboard/-c89": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-2-fa-210"
+  "/docs/deployments/web-widget-f6b": {
+    "__comp": "17896441",
+    "content": "7a7a314e"
   },
-  "/management-dashboard/analytics-dde": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-analytics-074-96f"
+  "/docs/management-dashboard/-b28": {
+    "__comp": "17896441",
+    "content": "2faab9d4"
   },
-  "/management-dashboard/deploying-19b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-deploying-378-bee"
+  "/docs/management-dashboard/analytics-28e": {
+    "__comp": "17896441",
+    "content": "0749739a"
   },
-  "/management-dashboard/rag-config-c4f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-rag-config-0-d-9-72b"
+  "/docs/management-dashboard/deploying-3bf": {
+    "__comp": "17896441",
+    "content": "3785fa70"
   },
-  "/management-dashboard/rag-testing-086": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-rag-testing-34-f-2a4"
+  "/docs/management-dashboard/rag-config-baf": {
+    "__comp": "17896441",
+    "content": "0d999669"
   },
-  "/management-dashboard/sources-d79": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-sources-7-a-8-0c2"
+  "/docs/management-dashboard/rag-testing-486": {
+    "__comp": "17896441",
+    "content": "34fd176e"
   },
-  "/management-dashboard/tools-96d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---management-dashboard-toolsd-13-c71"
+  "/docs/management-dashboard/sources-acf": {
+    "__comp": "17896441",
+    "content": "7a812091"
   },
-  "/-fc9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+  "/docs/management-dashboard/tools-2f7": {
+    "__comp": "17896441",
+    "content": "d13a38fe"
+  },
+  "/-15c": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "428968fa"
+      },
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "1a1424c7"
   }
 }

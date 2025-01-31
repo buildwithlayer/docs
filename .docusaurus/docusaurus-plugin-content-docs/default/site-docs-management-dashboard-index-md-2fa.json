@@ -5,19 +5,19 @@
   "source": "@site/docs/management-dashboard/index.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/",
-  "permalink": "/management-dashboard/",
+  "permalink": "/docs/management-dashboard/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/"
+    "permalink": "/docs/"
   },
   "next": {
     "title": "Managing Sources",
-    "permalink": "/management-dashboard/sources"
+    "permalink": "/docs/management-dashboard/sources"
   }
 }

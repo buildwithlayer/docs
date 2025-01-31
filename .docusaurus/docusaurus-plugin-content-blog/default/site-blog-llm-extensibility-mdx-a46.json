@@ -1,6 +1,5 @@
 {
-  "permalink": "/blog/llm_extensibility",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/llm_extensibility.mdx",
+  "permalink": "/llm_extensibility",
   "source": "@site/blog/llm_extensibility.mdx",
   "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
   "description": "Layer AI Blog | What Is LLM Extensibility?",
@@ -9,10 +8,10 @@
     {
       "inline": true,
       "label": "LLM Extensibility",
-      "permalink": "/blog/tags/llm-extensibility"
+      "permalink": "/tags/llm-extensibility"
     }
   ],
-  "readingTime": 5.7,
+  "readingTime": 5.555,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -51,6 +50,6 @@
   "unlisted": false,
   "nextItem": {
     "title": "Keep Your Data DRY with APIFlask",
-    "permalink": "/blog/dry_with_apiflask"
+    "permalink": "/dry_with_apiflask"
   }
 }

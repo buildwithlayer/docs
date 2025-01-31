@@ -5,7 +5,7 @@
   "source": "@site/docs/deployments/gemini.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/gemini",
-  "permalink": "/deployments/gemini",
+  "permalink": "/docs/deployments/gemini",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,9 +14,9 @@
   "frontMatter": {
     "sidebar_position": 5
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "OpenAI GPTs (Coming Soon)",
-    "permalink": "/deployments/gpt"
+    "permalink": "/docs/deployments/gpt"
   }
 }

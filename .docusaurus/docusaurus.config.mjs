@@ -7,11 +7,11 @@ export default {
   "title": "Layer Documentation",
   "tagline": "AI Answers Grounded in Your Docs",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://docs.buildwithlayer.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
-  "onBrokenLinks": "throw",
+  "organizationName": "buildwithlayer",
+  "projectName": "docs",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "scripts": [
     {
@@ -34,10 +34,6 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "routeBasePath": "/"
-        },
         "blog": {
           "showReadingTime": true,
           "feedOptions": {
@@ -47,7 +43,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "routeBasePath": "/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -57,20 +53,6 @@ export default {
         },
         "gtag": {
           "trackingID": "G-L3MG6PFSGM"
-        }
-      }
-    ],
-    [
-      "redocusaurus",
-      {
-        "specs": [
-          {
-            "spec": "https://api.buildwithlayer.com/openapi.json",
-            "route": "/api"
-          }
-        ],
-        "theme": {
-          "primaryColor": "#7b65ff"
         }
       }
     ]
@@ -84,22 +66,6 @@ export default {
         "src": "img/logo.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Documentation"
-        },
-        {
-          "to": "/api",
-          "label": "API Reference",
-          "position": "left"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
         {
           "href": "https://buildwithlayer.com",
           "label": "buildwithlayer.com",

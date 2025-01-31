@@ -5,7 +5,7 @@
   "source": "@site/docs/management-dashboard/analytics.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/analytics",
-  "permalink": "/management-dashboard/analytics",
+  "permalink": "/docs/management-dashboard/analytics",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 6
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Deploying",
-    "permalink": "/management-dashboard/deploying"
+    "permalink": "/docs/management-dashboard/deploying"
   },
   "next": {
     "title": "Deployment Surfaces",
-    "permalink": "/deployments/"
+    "permalink": "/docs/deployments/"
   }
 }
