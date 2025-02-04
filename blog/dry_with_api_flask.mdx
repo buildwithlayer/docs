@@ -1,8 +1,8 @@
 ---
-slug: dry_with_apiflask
+slug: dry_with_api_flask
 title: Keep Your Data DRY with APIFlask
 authors: [gpart, lgis, aham]
-date: 2021-01-23
+date: 2024-12-20
 descripion: Lead by Gavyn, Co-authored by Lucas and Andrew
 tags: [DRY, APIFlask, SQLAlchemy, Marshmallow, OneOfSchema]
 ---
@@ -168,7 +168,7 @@ Let's add a new ORM model that has a many-to-one relationship with the `Farmer`,
 <Tabs>
   <TabItem value="image" label="Image" default>
     <div style={{"text-align": "center"}}>
-        ![farmer-chicken-schema](./assets/farmer_chicken.png)
+        ![farmer-chicken-schema](./assets/dry_with_api_flask/farmer_chicken.png)
     </div>
   </TabItem>
   <TabItem value="code" label="Code">
@@ -214,7 +214,7 @@ but we are seasoned developers, and we know we can just abstract that out to a `
 <Tabs>
     <TabItem value="image" label="Image" default>
         <div style={{"text-align": "center"}}>
-            ![farmer-chicken-schema](./assets/farmer_chicken_base.png)
+            ![farmer-chicken-schema](./assets/dry_with_api_flask/farmer_chicken_base.png)
         </div>
     </TabItem>
     <TabItem value="code" label="Code">
@@ -427,7 +427,7 @@ For our purposes, we want one generic `Crop` model that keeps track of the type 
 acres a farmer has of that crop.
 <Tabs>
   <TabItem value="image" label="Image" default>
-    ![Crop Image](./assets/farmer_chick_crops.png)
+    ![Crop Image](./assets/dry_with_api_flask/farmer_chick_crops.png)
   </TabItem>
   <TabItem value="code" label="Code">
     ```python

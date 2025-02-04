@@ -11,7 +11,7 @@
       "permalink": "/tags/llm-extensibility"
     }
   ],
-  "readingTime": 5.555,
+  "readingTime": 5.935,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -50,6 +50,6 @@
   "unlisted": false,
   "nextItem": {
     "title": "Keep Your Data DRY with APIFlask",
-    "permalink": "/dry_with_apiflask"
+    "permalink": "/dry_with_api_flask"
   }
 }

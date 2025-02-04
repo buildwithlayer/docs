@@ -13,8 +13,8 @@ export default [
     exact: true
   },
   {
-    path: '/dry_with_apiflask',
-    component: ComponentCreator('/dry_with_apiflask', '3ae'),
+    path: '/dry_with_api_flask',
+    component: ComponentCreator('/dry_with_api_flask', 'f81'),
     exact: true
   },
   {

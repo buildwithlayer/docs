@@ -1,9 +1,9 @@
 {
-  "permalink": "/dry_with_apiflask",
+  "permalink": "/dry_with_api_flask",
   "source": "@site/blog/dry_with_api_flask.mdx",
   "title": "Keep Your Data DRY with APIFlask",
   "description": "Lead Author: Gavyn",
-  "date": "2021-01-23T00:00:00.000Z",
+  "date": "2024-12-20T00:00:00.000Z",
   "tags": [
     {
       "inline": true,
@@ -60,14 +60,14 @@
     }
   ],
   "frontMatter": {
-    "slug": "dry_with_apiflask",
+    "slug": "dry_with_api_flask",
     "title": "Keep Your Data DRY with APIFlask",
     "authors": [
       "gpart",
       "lgis",
       "aham"
     ],
-    "date": "2021-01-23T00:00:00.000Z",
+    "date": "2024-12-20T00:00:00.000Z",
     "descripion": "Lead by Gavyn, Co-authored by Lucas and Andrew",
     "tags": [
       "DRY",

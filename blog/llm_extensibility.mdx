@@ -12,16 +12,33 @@ keywords: [LLM Extensibility]
   <title>Layer AI Blog | What Is LLM Extensibility?</title>
 </head>
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## The Trust Gap in AI-Assisted Coding
 
 Ask any developer who’s turned to an AI chatbot for coding help, and you’ll likely hear the same question, reverberating at various volumes in their heads: “Can I really trust this snippet?”
 You never know if the chatbot is scraping outdated docs, merging conflicting tutorials, or pulling random code from unmaintained repos. Worse, you’re forced to juggle multiple platforms—IDE, browser, chat window—just to test and integrate those suggestions.
 Nobody wants to waste hours verifying code that was supposed to save them time. That’s where LLM Extensibility steps in, bringing curated, brand-approved-and-controlled data that stays in sync across every AI environment you rely on. The result? A coding assistant you can actually trust, with fewer late-night debugging sessions and far less copy-paste chaos.
 
+<Tabs>
+  <TabItem value="standard" label="Standard LLM Coding Assistance" default>
+   <div style={{"text-align": "center"}}>
+        ![Standard LLM Coding Assistance](./assets/llm_extensibility/standard_llm_coding_assistance.png)
+    </div>
+  </TabItem>
+  <TabItem value="extensibility" label="LLM Extension Coding Assistance" >
+    <div style={{"text-align": "center"}}>
+        ![LLM Extension Coding Assistance](./assets/llm_extensibility/llm_extension_coding_assistance.png)
+    </div>
+  </TabItem>
+</Tabs>
+
 ## What Is LLM Extensibility—and Why Does It Matter?
 
 LLM Extensibility is the process of embedding brand-approved, continuously updated knowledge and functionality directly into AI environments—so that developers, businesses, and AI platforms can collaborate more effectively. Instead of letting tools like ChatGPT or GitHub Copilot scrape the open web for partial information, LLM Extensibility ensures they always draw from the most reliable, real-time sources.
 This means a single, consistent pipeline: when a company publishes official documentation, code samples, or best practices into an “LLM extension,” developers see the correct info wherever they use AI—whether that’s in VS Code, Copilot, ChatGPT, Anthropic, or any other AI surface. No guesswork, no stale references, and a drastically simpler way to trust the AI’s output.
+![What is LLM Extensibility?](./assets/llm_extensibility/what_is_llm_extensibility.png)
 
 ## Everybody Wins: Unifying Brands, Developers, and AI Surfaces
 
@@ -42,6 +59,19 @@ For developers, that means fewer misfires. Instead of sifting through questionab
 Yes, a company could build separate plugins for each AI environment—VS Code extension, Github Copilot extension, OpenAI GPT, Anthropic MCP Server—and manually update each one whenever their docs or OpenAPI spec changes. But that approach is time-consuming and prone to version drift.
 A single publishing model makes far more sense: create one extension (containing your official docs, code samples, or agentic actions), then deploy it to whichever AI surfaces you want to support. Whenever you update your docs or add new features, every environment reflects the change at once. It’s akin to how mobile “app stores” let you distribute updates universally; here, you’re distributing brand content and logic to multiple AI tools.
 This is the vision behind platforms like Layer, which aim to unify LLM Extensibility. Rather than building piecemeal integrations for each environment, you create a single extension—your “source of truth”—and publish it across supported surfaces from one central dashboard. Brands update content once, developers find consistent, up-to-date docs and agentic tools, and AI surfaces reap the benefits of official, high-quality knowledge.
+
+<Tabs>
+  <TabItem value="fragmented" label="Fragmented Distribution Model" default>
+   <div style={{"text-align": "center"}}>
+        ![Fragmented Distribution Model](./assets/llm_extensibility/fragmented_distribution_model.png)
+    </div>
+  </TabItem>
+  <TabItem value="unified" label="Unified Distribution Model" >
+    <div style={{"text-align": "center"}}>
+        ![Unified Distribution Model](./assets/llm_extensibility/unified_distribution_model.png)
+    </div>
+  </TabItem>
+</Tabs>
 
 ## Insights and Efficiency for Everyone
 
