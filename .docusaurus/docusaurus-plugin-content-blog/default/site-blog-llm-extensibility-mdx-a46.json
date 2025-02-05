@@ -1,8 +1,8 @@
 {
   "permalink": "/llm_extensibility",
   "source": "@site/blog/llm_extensibility.mdx",
-  "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
-  "description": "Layer AI Blog | What Is LLM Extensibility?",
+  "title": "LLM Extensibility 101: What is LLM Extensibility?",
+  "description": "Layer AI Blog | LLM Extensibility 101: What is LLM Extensibility?",
   "date": "2025-01-28T00:00:00.000Z",
   "tags": [
     {
@@ -11,7 +11,7 @@
       "permalink": "/tags/llm-extensibility"
     }
   ],
-  "readingTime": 6.065,
+  "readingTime": 6.2,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -33,7 +33,7 @@
   ],
   "frontMatter": {
     "slug": "llm_extensibility",
-    "title": "LLM Extensibility: Unifying Brands, Developers, and AI Surfaces",
+    "title": "LLM Extensibility 101: What is LLM Extensibility?",
     "authors": [
       "jkatz",
       "aham"
