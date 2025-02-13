@@ -1,8 +1,8 @@
 {
   "permalink": "/llm_extensibility",
   "source": "@site/blog/llm_extensibility.mdx",
-  "title": "LLM Extensibility 101: What is LLM Extensibility?",
-  "description": "Layer AI Blog | LLM Extensibility 101: What is LLM Extensibility?",
+  "title": "LLM Extensibility 101",
+  "description": "Layer AI Blog | LLM Extensibility 101",
   "date": "2025-01-28T00:00:00.000Z",
   "tags": [
     {
@@ -11,7 +11,7 @@
       "permalink": "/tags/llm-extensibility"
     }
   ],
-  "readingTime": 6.2,
+  "readingTime": 6.16,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -33,7 +33,7 @@
   ],
   "frontMatter": {
     "slug": "llm_extensibility",
-    "title": "LLM Extensibility 101: What is LLM Extensibility?",
+    "title": "LLM Extensibility 101",
     "authors": [
       "jkatz",
       "aham"
@@ -48,6 +48,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Why LLM Extensibility is Vital to API Vendors",
+    "permalink": "/llm_extensibility_vital_to_api_vendors"
+  },
   "nextItem": {
     "title": "Keep Your Data DRY with APIFlask",
     "permalink": "/dry_with_api_flask"

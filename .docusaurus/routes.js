@@ -23,13 +23,33 @@ export default [
     exact: true
   },
   {
+    path: '/llm_extensibility_vital_to_api_vendors',
+    component: ComponentCreator('/llm_extensibility_vital_to_api_vendors', '44e'),
+    exact: true
+  },
+  {
     path: '/tags',
     component: ComponentCreator('/tags', '626'),
     exact: true
   },
   {
+    path: '/tags/agent-experience-ax',
+    component: ComponentCreator('/tags/agent-experience-ax', 'dc1'),
+    exact: true
+  },
+  {
+    path: '/tags/api',
+    component: ComponentCreator('/tags/api', '77d'),
+    exact: true
+  },
+  {
     path: '/tags/api-flask',
     component: ComponentCreator('/tags/api-flask', 'c31'),
+    exact: true
+  },
+  {
+    path: '/tags/developer-experience-dx',
+    component: ComponentCreator('/tags/developer-experience-dx', 'a7b'),
     exact: true
   },
   {
@@ -39,7 +59,7 @@ export default [
   },
   {
     path: '/tags/llm-extensibility',
-    component: ComponentCreator('/tags/llm-extensibility', '048'),
+    component: ComponentCreator('/tags/llm-extensibility', '0af'),
     exact: true
   },
   {
@@ -161,7 +181,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '15c'),
+    component: ComponentCreator('/', 'fdc'),
     exact: true
   },
   {

@@ -39,6 +39,17 @@
     "sidebar": "814f3328",
     "content": "a4613bc5"
   },
+  "/llm_extensibility_vital_to_api_vendors-44e": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "354f2cfc"
+  },
   "/tags-626": {
     "__comp": "01a85c17",
     "__context": {
@@ -46,6 +57,32 @@
     },
     "sidebar": "814f3328",
     "__props": "c2a3e543"
+  },
+  "/tags/agent-experience-ax-dc1": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "4676f530"
+  },
+  "/tags/api-77d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "e5f0e2b3"
   },
   "/tags/api-flask-c31": {
     "__comp": "6875c492",
@@ -60,6 +97,19 @@
     ],
     "__props": "f8a05aed"
   },
+  "/tags/developer-experience-dx-a7b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "e19ae8a2"
+  },
   "/tags/dry-93d": {
     "__comp": "6875c492",
     "__context": {
@@ -73,13 +123,16 @@
     ],
     "__props": "ca915ce2"
   },
-  "/tags/llm-extensibility-048": {
+  "/tags/llm-extensibility-0af": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "918e31b3"
+      },
       {
         "content": "428968fa"
       }
@@ -194,13 +247,16 @@
     "__comp": "17896441",
     "content": "d13a38fe"
   },
-  "/-15c": {
+  "/-fdc": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "918e31b3"
+      },
       {
         "content": "428968fa"
       },

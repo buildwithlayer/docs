@@ -2,7 +2,13 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "LLM Extensibility 101: What is LLM Extensibility?",
+      "title": "Why LLM Extensibility is Vital to API Vendors",
+      "permalink": "/llm_extensibility_vital_to_api_vendors",
+      "unlisted": false,
+      "date": "2025-02-13T00:00:00.000Z"
+    },
+    {
+      "title": "LLM Extensibility 101",
       "permalink": "/llm_extensibility",
       "unlisted": false,
       "date": "2025-01-28T00:00:00.000Z"
