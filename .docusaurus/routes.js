@@ -53,6 +53,11 @@ export default [
     exact: true
   },
   {
+    path: '/layer_neon_copilot_extension',
+    component: ComponentCreator('/layer_neon_copilot_extension', 'df1'),
+    exact: true
+  },
+  {
     path: '/llm_extensibility',
     component: ComponentCreator('/llm_extensibility', '73b'),
     exact: true
@@ -69,12 +74,12 @@ export default [
   },
   {
     path: '/tags/agent-experience-ax',
-    component: ComponentCreator('/tags/agent-experience-ax', 'dc1'),
+    component: ComponentCreator('/tags/agent-experience-ax', '305'),
     exact: true
   },
   {
     path: '/tags/api',
-    component: ComponentCreator('/tags/api', '77d'),
+    component: ComponentCreator('/tags/api', '96e'),
     exact: true
   },
   {
@@ -84,7 +89,7 @@ export default [
   },
   {
     path: '/tags/developer-experience-dx',
-    component: ComponentCreator('/tags/developer-experience-dx', 'a7b'),
+    component: ComponentCreator('/tags/developer-experience-dx', '10f'),
     exact: true
   },
   {
@@ -93,13 +98,23 @@ export default [
     exact: true
   },
   {
+    path: '/tags/git-hub-copilot',
+    component: ComponentCreator('/tags/git-hub-copilot', 'aa7'),
+    exact: true
+  },
+  {
     path: '/tags/llm-extensibility',
-    component: ComponentCreator('/tags/llm-extensibility', '0af'),
+    component: ComponentCreator('/tags/llm-extensibility', '259'),
     exact: true
   },
   {
     path: '/tags/marshmallow',
     component: ComponentCreator('/tags/marshmallow', '899'),
+    exact: true
+  },
+  {
+    path: '/tags/neon',
+    component: ComponentCreator('/tags/neon', '361'),
     exact: true
   },
   {
@@ -216,7 +231,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'fdc'),
+    component: ComponentCreator('/', '9c3'),
     exact: true
   },
   {

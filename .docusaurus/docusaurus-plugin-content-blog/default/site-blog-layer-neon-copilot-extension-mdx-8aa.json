@@ -1,0 +1,81 @@
+{
+  "permalink": "/layer_neon_copilot_extension",
+  "source": "@site/blog/layer_neon_copilot_extension.mdx",
+  "title": "How Layer Built Neon’s Copilot Extension",
+  "description": "Layer AI Blog | How Layer Built Neon’s Copilot Extension",
+  "date": "2025-02-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "LLM Extensibility",
+      "permalink": "/tags/llm-extensibility"
+    },
+    {
+      "inline": true,
+      "label": "API",
+      "permalink": "/tags/api"
+    },
+    {
+      "inline": true,
+      "label": "Developer Experience (DX)",
+      "permalink": "/tags/developer-experience-dx"
+    },
+    {
+      "inline": true,
+      "label": "Agent Experience (AX)",
+      "permalink": "/tags/agent-experience-ax"
+    },
+    {
+      "inline": true,
+      "label": "GitHub Copilot",
+      "permalink": "/tags/git-hub-copilot"
+    },
+    {
+      "inline": true,
+      "label": "Neon",
+      "permalink": "/tags/neon"
+    }
+  ],
+  "readingTime": 2.695,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Andrew Hamilton",
+      "title": "Co-Founder and CTO @ Layer",
+      "url": "https://github.com/andrewlayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/135887157?v=4",
+      "key": "aham",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "layer_neon_copilot_extension",
+    "title": "How Layer Built Neon’s Copilot Extension",
+    "authors": [
+      "aham"
+    ],
+    "date": "2025-02-20T00:00:00.000Z",
+    "descripion": "This blog blog demonstrates how Layer created a GitHub Copilot extension for Neon, a serverless, open-source PostgreSQL database. We build Copilot extensions (and other AI integrations) for companies that want to embrace AI Agents in their go-to-market process. If you’d like to see how we can help, read on—or book a demo to learn more",
+    "tags": [
+      "LLM Extensibility",
+      "API",
+      "Developer Experience (DX)",
+      "Agent Experience (AX)",
+      "GitHub Copilot",
+      "Neon"
+    ],
+    "keywords": [
+      "LLM Extensibility",
+      "API",
+      "Developer Experience (DX)",
+      "Agent Experience (AX)",
+      "GitHub Copilot",
+      "Neon"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Why LLM Extensibility is Vital to API Vendors",
+    "permalink": "/llm_extensibility_vital_to_api_vendors"
+  }
+}

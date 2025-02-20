@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "How Layer Built Neon’s Copilot Extension",
+      "permalink": "/layer_neon_copilot_extension",
+      "unlisted": false,
+      "date": "2025-02-20T00:00:00.000Z"
+    },
+    {
       "title": "Why LLM Extensibility is Vital to API Vendors",
       "permalink": "/llm_extensibility_vital_to_api_vendors",
       "unlisted": false,

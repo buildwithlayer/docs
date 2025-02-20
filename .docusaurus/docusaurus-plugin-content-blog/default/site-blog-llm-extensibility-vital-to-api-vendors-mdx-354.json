@@ -69,6 +69,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "How Layer Built Neon’s Copilot Extension",
+    "permalink": "/layer_neon_copilot_extension"
+  },
   "nextItem": {
     "title": "LLM Extensibility 101",
     "permalink": "/llm_extensibility"

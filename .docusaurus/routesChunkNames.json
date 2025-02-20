@@ -71,6 +71,17 @@
     "sidebar": "sidebar---authors-814-ac0",
     "content": "content---dry-with-api-flask-434-e76"
   },
+  "/layer_neon_copilot_extension-df1": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---authorsace-1c9"
+      },
+      "plugin": "plugin---archive-369-3bf"
+    },
+    "sidebar": "sidebar---authors-814-ac0",
+    "content": "content---layer-neon-copilot-extension-8-aa-327"
+  },
   "/llm_extensibility-73b": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -101,7 +112,7 @@
     "sidebar": "sidebar---authors-814-ac0",
     "__props": "__props---tagsc-2-a-bff"
   },
-  "/tags/agent-experience-ax-dc1": {
+  "/tags/agent-experience-ax-305": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
@@ -109,18 +120,24 @@
     "sidebar": "sidebar---authors-814-ac0",
     "items": [
       {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      },
+      {
         "content": "content---tags-agent-experience-ax-918-11b"
       }
     ],
     "__props": "__props---tags-agent-experience-ax-467-61b"
   },
-  "/tags/api-77d": {
+  "/tags/api-96e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
     "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      },
       {
         "content": "content---tags-agent-experience-ax-918-11b"
       }
@@ -140,13 +157,16 @@
     ],
     "__props": "__props---tags-api-flaskf-8-a-fe8"
   },
-  "/tags/developer-experience-dx-a7b": {
+  "/tags/developer-experience-dx-10f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
     "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      },
       {
         "content": "content---tags-agent-experience-ax-918-11b"
       }
@@ -166,13 +186,29 @@
     ],
     "__props": "__props---tags-dryca-9-97f"
   },
-  "/tags/llm-extensibility-0af": {
+  "/tags/git-hub-copilot-aa7": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
     "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      }
+    ],
+    "__props": "__props---tags-git-hub-copilotdc-9-ddb"
+  },
+  "/tags/llm-extensibility-259": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---archive-369-3bf"
+    },
+    "sidebar": "sidebar---authors-814-ac0",
+    "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      },
       {
         "content": "content---tags-agent-experience-ax-918-11b"
       },
@@ -194,6 +230,19 @@
       }
     ],
     "__props": "__props---tags-marshmallowf-29-439"
+  },
+  "/tags/neon-361": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---archive-369-3bf"
+    },
+    "sidebar": "sidebar---authors-814-ac0",
+    "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      }
+    ],
+    "__props": "__props---tags-neonb-48-c50"
   },
   "/tags/one-of-schema-4f0": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -290,13 +339,16 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-management-dashboard-toolsd-13-2c9"
   },
-  "/-fdc": {
+  "/-9c3": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---archive-369-3bf"
     },
     "sidebar": "sidebar---authors-814-ac0",
     "items": [
+      {
+        "content": "content---tags-agent-experience-ax-184-ea3"
+      },
       {
         "content": "content---tags-agent-experience-ax-918-11b"
       },
