@@ -36,7 +36,7 @@
       "permalink": "/tags/neon"
     }
   ],
-  "readingTime": 2.63,
+  "readingTime": 2.695,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -49,6 +49,7 @@
     }
   ],
   "frontMatter": {
+    "id": "layer_neon_copilot_extension",
     "slug": "layer_neon_copilot_extension",
     "title": "How Layer Built Neon’s Copilot Extension",
     "authors": [

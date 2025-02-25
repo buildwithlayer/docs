@@ -36,7 +36,7 @@
       "permalink": "/tags/ai-agents"
     }
   ],
-  "readingTime": 5.675,
+  "readingTime": 5.79,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -49,6 +49,7 @@
     }
   ],
   "frontMatter": {
+    "id": "ai_gtm",
     "slug": "ai_gtm",
     "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
     "authors": [

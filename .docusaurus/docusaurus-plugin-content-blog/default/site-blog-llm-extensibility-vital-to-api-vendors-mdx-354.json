@@ -26,7 +26,7 @@
       "permalink": "/tags/agent-experience-ax"
     }
   ],
-  "readingTime": 8.35,
+  "readingTime": 8.445,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -47,6 +47,7 @@
     }
   ],
   "frontMatter": {
+    "id": "llm_extensibility_vital_to_api_vendors",
     "slug": "llm_extensibility_vital_to_api_vendors",
     "title": "Why LLM Extensibility is Vital to API Vendors",
     "authors": [

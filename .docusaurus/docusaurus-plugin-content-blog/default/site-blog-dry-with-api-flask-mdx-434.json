@@ -2,7 +2,7 @@
   "permalink": "/dry_with_api_flask",
   "source": "@site/blog/dry_with_api_flask.mdx",
   "title": "Keep Your Data DRY with APIFlask",
-  "description": "Lead Author: Gavyn",
+  "description": "Layer AI Blog | Keep Your Data DRY with APIFlask",
   "date": "2024-12-20T00:00:00.000Z",
   "tags": [
     {
@@ -31,7 +31,7 @@
       "permalink": "/tags/one-of-schema"
     }
   ],
-  "readingTime": 12.515,
+  "readingTime": 12.64,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -60,6 +60,7 @@
     }
   ],
   "frontMatter": {
+    "id": "dry_with_api_flask",
     "slug": "dry_with_api_flask",
     "title": "Keep Your Data DRY with APIFlask",
     "authors": [
