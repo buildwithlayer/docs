@@ -11,7 +11,7 @@
       "permalink": "/tags/llm-extensibility"
     }
   ],
-  "readingTime": 6.16,
+  "readingTime": 6.12,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -46,8 +46,7 @@
     ],
     "keywords": [
       "LLM Extensibility"
-    ],
-    "image": "https://storage.googleapis.com/generic-assets/blog-static-assets/llm_extensibility_og_image.png"
+    ]
   },
   "unlisted": false,
   "prevItem": {

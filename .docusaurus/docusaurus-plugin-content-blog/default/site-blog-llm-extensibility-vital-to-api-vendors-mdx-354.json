@@ -26,7 +26,7 @@
       "permalink": "/tags/agent-experience-ax"
     }
   ],
-  "readingTime": 8.445,
+  "readingTime": 8.405,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -67,8 +67,7 @@
       "API",
       "Developer Experience (DX)",
       "Agent Experience (AX)"
-    ],
-    "image": "https://storage.googleapis.com/generic-assets/blog-static-assets/llm_extensibility_vital_og_image.png"
+    ]
   },
   "unlisted": false,
   "prevItem": {
