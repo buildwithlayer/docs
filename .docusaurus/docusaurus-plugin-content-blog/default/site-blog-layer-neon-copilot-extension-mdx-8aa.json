@@ -2,7 +2,7 @@
   "permalink": "/layer_neon_copilot_extension",
   "source": "@site/blog/layer_neon_copilot_extension.mdx",
   "title": "How Layer Built Neon’s Copilot Extension",
-  "description": "Layer AI Blog | How Layer Built Neon’s Copilot Extension",
+  "description": "This blog demonstrates how Layer created a GitHub Copilot extension for Neon, a serverless, open-source PostgreSQL database. We build Copilot extensions (and other AI integrations) for companies that want to embrace AI Agents in their go-to-market process. If you’d like to see how we can help, read on—or book a demo to learn more",
   "date": "2025-02-20T00:00:00.000Z",
   "tags": [
     {
@@ -55,7 +55,7 @@
       "aham"
     ],
     "date": "2025-02-20T00:00:00.000Z",
-    "descripion": "This blog blog demonstrates how Layer created a GitHub Copilot extension for Neon, a serverless, open-source PostgreSQL database. We build Copilot extensions (and other AI integrations) for companies that want to embrace AI Agents in their go-to-market process. If you’d like to see how we can help, read on—or book a demo to learn more",
+    "description": "This blog demonstrates how Layer created a GitHub Copilot extension for Neon, a serverless, open-source PostgreSQL database. We build Copilot extensions (and other AI integrations) for companies that want to embrace AI Agents in their go-to-market process. If you’d like to see how we can help, read on—or book a demo to learn more",
     "tags": [
       "LLM Extensibility",
       "API",
@@ -74,6 +74,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+    "permalink": "/ai_gtm"
+  },
   "nextItem": {
     "title": "Why LLM Extensibility is Vital to API Vendors",
     "permalink": "/llm_extensibility_vital_to_api_vendors"

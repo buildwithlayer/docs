@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+      "permalink": "/ai_gtm",
+      "unlisted": false,
+      "date": "2025-02-25T00:00:00.000Z"
+    },
+    {
       "title": "How Layer Built Neon’s Copilot Extension",
       "permalink": "/layer_neon_copilot_extension",
       "unlisted": false,
