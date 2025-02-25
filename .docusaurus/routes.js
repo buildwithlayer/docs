@@ -79,22 +79,22 @@ export default [
   },
   {
     path: '/tags/agent-experience-ax',
-    component: ComponentCreator('/tags/agent-experience-ax', '812'),
+    component: ComponentCreator('/tags/agent-experience-ax', '67d'),
     exact: true
   },
   {
     path: '/tags/ai-agents',
-    component: ComponentCreator('/tags/ai-agents', 'f8a'),
+    component: ComponentCreator('/tags/ai-agents', '632'),
     exact: true
   },
   {
     path: '/tags/ai-go-to-market',
-    component: ComponentCreator('/tags/ai-go-to-market', '742'),
+    component: ComponentCreator('/tags/ai-go-to-market', '648'),
     exact: true
   },
   {
     path: '/tags/api',
-    component: ComponentCreator('/tags/api', 'd94'),
+    component: ComponentCreator('/tags/api', '69c'),
     exact: true
   },
   {
@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/tags/developer-experience-dx',
-    component: ComponentCreator('/tags/developer-experience-dx', '223'),
+    component: ComponentCreator('/tags/developer-experience-dx', '3e4'),
     exact: true
   },
   {
@@ -119,7 +119,7 @@ export default [
   },
   {
     path: '/tags/llm-extensibility',
-    component: ComponentCreator('/tags/llm-extensibility', '68a'),
+    component: ComponentCreator('/tags/llm-extensibility', '6c6'),
     exact: true
   },
   {
@@ -140,6 +140,11 @@ export default [
   {
     path: '/tags/sql-alchemy',
     component: ComponentCreator('/tags/sql-alchemy', '889'),
+    exact: true
+  },
+  {
+    path: '/vscode_grubhub_extension',
+    component: ComponentCreator('/vscode_grubhub_extension', '9dc'),
     exact: true
   },
   {
@@ -246,7 +251,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '2e5'),
+    component: ComponentCreator('/', 'b9e'),
     exact: true
   },
   {

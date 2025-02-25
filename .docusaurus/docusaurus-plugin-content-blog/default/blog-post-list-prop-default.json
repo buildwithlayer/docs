@@ -8,6 +8,12 @@
       "date": "2025-02-25T00:00:00.000Z"
     },
     {
+      "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
+      "permalink": "/vscode_grubhub_extension",
+      "unlisted": false,
+      "date": "2025-02-25T00:00:00.000Z"
+    },
+    {
       "title": "How Layer Built Neon’s Copilot Extension",
       "permalink": "/layer_neon_copilot_extension",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/llm_extensibility",
       "unlisted": false,
       "date": "2025-01-28T00:00:00.000Z"
-    },
-    {
-      "title": "Keep Your Data DRY with APIFlask",
-      "permalink": "/dry_with_api_flask",
-      "unlisted": false,
-      "date": "2024-12-20T00:00:00.000Z"
     }
   ]
 }

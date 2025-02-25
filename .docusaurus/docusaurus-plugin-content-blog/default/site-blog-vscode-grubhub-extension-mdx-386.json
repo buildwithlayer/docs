@@ -1,7 +1,7 @@
 {
-  "permalink": "/ai_gtm",
-  "source": "@site/blog/ai_gtm.mdx",
-  "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+  "permalink": "/vscode_grubhub_extension",
+  "source": "@site/blog/vscode_grubhub_extension.mdx",
+  "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
   "description": "Discover how AI agents are reshaping the go-to-market strategy for APIs. Learn why making your API agent-friendly with AI-powered tools like GitHub Copilot and prompt-to-app builders is crucial for reaching new users and driving adoption.",
   "date": "2025-02-25T00:00:00.000Z",
   "tags": [
@@ -36,24 +36,24 @@
       "permalink": "/tags/ai-agents"
     }
   ],
-  "readingTime": 5.755,
+  "readingTime": 8.73,
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Jonah Katz",
-      "title": "Co-Founder and CEO @ Layer",
-      "url": "https://www.linkedin.com/in/jonahkatz1/",
-      "imageURL": "https://media.licdn.com/dms/image/v2/D4D03AQH2LNM38t56gw/profile-displayphoto-shrink_400_400/B4DZUFQFoiHwAg-/0/1739549859357?e=1745452800&v=beta&t=_d4NnBv-PKurwk7BTGq6qFBoHQhwvZzBS9_zagNjpeE",
-      "key": "jkatz",
+      "name": "Andrew Hamilton",
+      "title": "Co-Founder and CTO @ Layer",
+      "url": "https://github.com/andrewlayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/135887157?v=4",
+      "key": "aham",
       "page": null
     }
   ],
   "frontMatter": {
-    "id": "ai_gtm",
-    "slug": "ai_gtm",
-    "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+    "id": "vscode_grubhub_extension",
+    "slug": "vscode_grubhub_extension",
+    "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
     "authors": [
-      "jkatz"
+      "aham"
     ],
     "date": "2025-02-25T00:00:00.000Z",
     "description": "Discover how AI agents are reshaping the go-to-market strategy for APIs. Learn why making your API agent-friendly with AI-powered tools like GitHub Copilot and prompt-to-app builders is crucial for reaching new users and driving adoption.",
@@ -75,8 +75,12 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+    "permalink": "/ai_gtm"
+  },
   "nextItem": {
-    "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
-    "permalink": "/vscode_grubhub_extension"
+    "title": "How Layer Built Neon’s Copilot Extension",
+    "permalink": "/layer_neon_copilot_extension"
   }
 }
