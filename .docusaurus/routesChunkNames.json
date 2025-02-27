@@ -123,7 +123,7 @@
     "sidebar": "sidebar---ai-gtm-814-9a3",
     "__props": "__props---tagsc-2-a-bff"
   },
-  "/tags/agent-experience-ax-812": {
+  "/tags/agent-experience-ax-67d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -132,6 +132,9 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       },
       {
         "content": "content---tags-agent-experience-ax-184-ea3"
@@ -142,7 +145,7 @@
     ],
     "__props": "__props---tags-agent-experience-ax-467-61b"
   },
-  "/tags/ai-agents-f8a": {
+  "/tags/ai-agents-632": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -151,11 +154,14 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       }
     ],
     "__props": "__props---tags-ai-agents-1-f-8-408"
   },
-  "/tags/ai-go-to-market-742": {
+  "/tags/ai-go-to-market-648": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -164,11 +170,14 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       }
     ],
     "__props": "__props---tags-ai-go-to-market-073-364"
   },
-  "/tags/api-d94": {
+  "/tags/api-69c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -177,6 +186,9 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       },
       {
         "content": "content---tags-agent-experience-ax-184-ea3"
@@ -200,7 +212,7 @@
     ],
     "__props": "__props---tags-api-flaskf-8-a-fe8"
   },
-  "/tags/developer-experience-dx-223": {
+  "/tags/developer-experience-dx-3e4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -209,6 +221,9 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       },
       {
         "content": "content---tags-agent-experience-ax-184-ea3"
@@ -245,7 +260,7 @@
     ],
     "__props": "__props---tags-git-hub-copilotdc-9-ddb"
   },
-  "/tags/llm-extensibility-68a": {
+  "/tags/llm-extensibility-6c6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -254,6 +269,9 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       },
       {
         "content": "content---tags-agent-experience-ax-184-ea3"
@@ -318,6 +336,17 @@
       }
     ],
     "__props": "__props---tags-sql-alchemy-4-d-7-3b3"
+  },
+  "/vscode_grubhub_extension-9dc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+      },
+      "plugin": "plugin---ai-gtm-369-af3"
+    },
+    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "content": "content---vscode-grubhub-extension-386-1d2"
   },
   "/docs-704": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
@@ -388,7 +417,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-management-dashboard-toolsd-13-2c9"
   },
-  "/-2e5": {
+  "/-b9e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---ai-gtm-369-af3"
@@ -397,6 +426,9 @@
     "items": [
       {
         "content": "content---tags-agent-experience-ax-843-0c6"
+      },
+      {
+        "content": "content---tags-agent-experience-axbf-9-708"
       },
       {
         "content": "content---tags-agent-experience-ax-184-ea3"
