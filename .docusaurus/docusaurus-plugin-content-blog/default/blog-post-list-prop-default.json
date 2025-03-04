@@ -2,14 +2,14 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
-      "permalink": "/ai_gtm",
-      "unlisted": false,
-      "date": "2025-02-25T00:00:00.000Z"
-    },
-    {
       "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
       "permalink": "/vscode_grubhub_extension",
+      "unlisted": false,
+      "date": "2025-02-27T00:00:00.000Z"
+    },
+    {
+      "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
+      "permalink": "/ai_gtm",
       "unlisted": false,
       "date": "2025-02-25T00:00:00.000Z"
     },

@@ -1,448 +1,428 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/ai_gtm-1ba": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---ai-gtm-92-f-0d2"
+    "sidebar": "814f3328",
+    "content": "92f95eb3"
   },
   "/archive-51a": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "__props": "__props---archiveb-26-52e"
+    "__props": "b266de79"
   },
   "/authors-498": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "__props": "__props---authors-3-f-9-914"
+    "sidebar": "814f3328",
+    "__props": "3f9ae9f6"
   },
   "/dry_with_api_flask-f81": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---dry-with-api-flask-434-e76"
+    "sidebar": "814f3328",
+    "content": "4349639d"
   },
   "/layer_neon_copilot_extension-df1": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---layer-neon-copilot-extension-8-aa-327"
+    "sidebar": "814f3328",
+    "content": "8aa8af83"
   },
   "/llm_extensibility-73b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---llm-extensibilitya-46-a97"
+    "sidebar": "814f3328",
+    "content": "a4613bc5"
   },
   "/llm_extensibility_vital_to_api_vendors-44e": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---llm-extensibility-vital-to-api-vendors-354-546"
+    "sidebar": "814f3328",
+    "content": "354f2cfc"
   },
   "/tags-626": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "__props": "__props---tagsc-2-a-bff"
+    "sidebar": "814f3328",
+    "__props": "c2a3e543"
   },
-  "/tags/agent-experience-ax-67d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/agent-experience-ax-e18": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
+        "content": "bf9d90d2"
       },
       {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       },
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       },
       {
-        "content": "content---tags-agent-experience-ax-918-11b"
+        "content": "918e31b3"
       }
     ],
-    "__props": "__props---tags-agent-experience-ax-467-61b"
+    "__props": "4676f530"
   },
-  "/tags/ai-agents-632": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/ai-agents-2d8": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
+        "content": "bf9d90d2"
       },
       {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       }
     ],
-    "__props": "__props---tags-ai-agents-1-f-8-408"
+    "__props": "1f8fe5fd"
   },
-  "/tags/ai-go-to-market-648": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/ai-go-to-market-742": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
-      },
-      {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       }
     ],
-    "__props": "__props---tags-ai-go-to-market-073-364"
+    "__props": "073e2460"
   },
-  "/tags/api-69c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/api-37e": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
+        "content": "bf9d90d2"
       },
       {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       },
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       },
       {
-        "content": "content---tags-agent-experience-ax-918-11b"
+        "content": "918e31b3"
       }
     ],
-    "__props": "__props---tags-apie-5-f-040"
+    "__props": "e5f0e2b3"
   },
   "/tags/api-flask-c31": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---tags-api-flaskf-8-a-fe8"
+    "__props": "f8a05aed"
   },
-  "/tags/developer-experience-dx-3e4": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/developer-experience-dx-062": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
+        "content": "bf9d90d2"
       },
       {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       },
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       },
       {
-        "content": "content---tags-agent-experience-ax-918-11b"
+        "content": "918e31b3"
       }
     ],
-    "__props": "__props---tags-developer-experience-dxe-19-5e8"
+    "__props": "e19ae8a2"
   },
   "/tags/dry-93d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---tags-dryca-9-97f"
+    "__props": "ca915ce2"
   },
   "/tags/git-hub-copilot-aa7": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       }
     ],
-    "__props": "__props---tags-git-hub-copilotdc-9-ddb"
+    "__props": "dc9e9267"
   },
-  "/tags/llm-extensibility-6c6": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/tags/grubhub-db8": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
-      },
-      {
-        "content": "content---tags-agent-experience-axbf-9-708"
-      },
-      {
-        "content": "content---tags-agent-experience-ax-184-ea3"
-      },
-      {
-        "content": "content---tags-agent-experience-ax-918-11b"
-      },
-      {
-        "content": "content---tags-llm-extensibility-428-10a"
+        "content": "bf9d90d2"
       }
     ],
-    "__props": "__props---tags-llm-extensibility-794-515"
+    "__props": "3d95ec15"
+  },
+  "/tags/llm-extensibility-37e": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      },
+      {
+        "content": "184c6921"
+      },
+      {
+        "content": "918e31b3"
+      },
+      {
+        "content": "428968fa"
+      }
+    ],
+    "__props": "794a8075"
   },
   "/tags/marshmallow-899": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---tags-marshmallowf-29-439"
+    "__props": "f29450b4"
   },
   "/tags/neon-361": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       }
     ],
-    "__props": "__props---tags-neonb-48-c50"
+    "__props": "b48d4d83"
   },
   "/tags/one-of-schema-4f0": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---tags-one-of-schema-5-b-3-db0"
+    "__props": "5b300c89"
   },
   "/tags/sql-alchemy-889": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---tags-sql-alchemy-4-d-7-3b3"
+    "__props": "4d76ba38"
+  },
+  "/tags/vs-code-c0a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      }
+    ],
+    "__props": "98ef0507"
   },
   "/vscode_grubhub_extension-9dc": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---ai-gtmace-f6f"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
-    "content": "content---vscode-grubhub-extension-386-1d2"
+    "sidebar": "814f3328",
+    "content": "386458ea"
   },
   "/docs-704": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-203": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs-a5c": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/-bc1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-0-e-3-18c"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/deployments/-102": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-189-15d"
+    "__comp": "17896441",
+    "content": "1899731c"
   },
   "/docs/deployments/copilot-757": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-copilot-0-b-9-434"
+    "__comp": "17896441",
+    "content": "0b9234f1"
   },
   "/docs/deployments/gemini-a47": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-gemini-31-a-0a7"
+    "__comp": "17896441",
+    "content": "31a72f0f"
   },
   "/docs/deployments/gpt-7b3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-gpt-5-e-2-08b"
+    "__comp": "17896441",
+    "content": "5e299fad"
   },
   "/docs/deployments/vs-code-3ef": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-vs-code-2-ae-4c3"
+    "__comp": "17896441",
+    "content": "2ae54794"
   },
   "/docs/deployments/web-widget-f6b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-deployments-web-widget-7-a-7-716"
+    "__comp": "17896441",
+    "content": "7a7a314e"
   },
   "/docs/management-dashboard/-b28": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-2-fa-517"
+    "__comp": "17896441",
+    "content": "2faab9d4"
   },
   "/docs/management-dashboard/analytics-28e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-analytics-074-20a"
+    "__comp": "17896441",
+    "content": "0749739a"
   },
   "/docs/management-dashboard/deploying-3bf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-deploying-378-66f"
+    "__comp": "17896441",
+    "content": "3785fa70"
   },
   "/docs/management-dashboard/rag-config-baf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-rag-config-0-d-9-202"
+    "__comp": "17896441",
+    "content": "0d999669"
   },
   "/docs/management-dashboard/rag-testing-486": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-rag-testing-34-f-906"
+    "__comp": "17896441",
+    "content": "34fd176e"
   },
   "/docs/management-dashboard/sources-acf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-sources-7-a-8-62a"
+    "__comp": "17896441",
+    "content": "7a812091"
   },
   "/docs/management-dashboard/tools-2f7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-management-dashboard-toolsd-13-2c9"
+    "__comp": "17896441",
+    "content": "d13a38fe"
   },
-  "/-b9e": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+  "/-80c": {
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---ai-gtm-369-af3"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---ai-gtm-814-9a3",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---tags-agent-experience-ax-843-0c6"
+        "content": "bf9d90d2"
       },
       {
-        "content": "content---tags-agent-experience-axbf-9-708"
+        "content": "84314087"
       },
       {
-        "content": "content---tags-agent-experience-ax-184-ea3"
+        "content": "184c6921"
       },
       {
-        "content": "content---tags-agent-experience-ax-918-11b"
+        "content": "918e31b3"
       },
       {
-        "content": "content---tags-llm-extensibility-428-10a"
+        "content": "428968fa"
       },
       {
-        "content": "content---tags-api-flaskd-2-e-22b"
+        "content": "d2e8bde3"
       }
     ],
-    "__props": "__props---1-a-1-4cc"
+    "__props": "1a1424c7"
   }
 }

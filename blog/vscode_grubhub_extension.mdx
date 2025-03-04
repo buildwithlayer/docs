@@ -32,11 +32,12 @@ Here is the flow:
 
 ## Reverse Engineering Grubhub API like a Sigma Developer
 
-At first I wanted to use Doordash, but they use server-side rendering to display their menus which would make our jobs real hard.  So I settled on using Grubhub instead (and may I just say, this was the correct choice).  Now Grubhub doesn't have a public api for ordering food (they do have this [api](https://developer.grubhub.com/), but this is for merchants of which I am not), so we need to reverse engineer the api.  To do this I used Chrome Dev Tools & [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo?hl=en).  
+At first I wanted to use Doordash, but they use server-side rendering to display their menus which would make our jobs real hard.  So I settled on using Grubhub instead (and may I just say, this was the correct choice).  Now Grubhub doesn't have a public API for ordering food (they do have this [API](https://developer.grubhub.com/), but this is for merchants of which I am not), so we need to reverse engineer the API.  To do this I used Chrome Dev Tools & [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo?hl=en).  
 
 ### My first "accidental" cheeseburger
 
-In order to intercept all the requests, I needed to reverse engineer the API, I needed to place an order.  So with my postman interceptor listening and the company card details ready, I walked through the checkout process and clicked "Submit".  Suddenly hundreds of requests poured out of my computer as my credit card information was sent to the Grubhub servers. I then rapidly tried to cancel the order, but it was too late, it arrived at my house 30 minutes later.  Here it is in its full glory:
+In order to intercept all the requests, I needed to reverse engineer the API: I had to place an order.  So with my postman interceptor listening and the company card details ready, I walked through the checkout process and clicked "Submit".  Suddenly hundreds of requests poured out of my computer. I then rapidly tried to cancel the order, but it was too late. The food arrived at my house 30 minutes later. Here it is in its full glory:
+
 ```
                             |\ /| /|_/|
                           |\||-|\||-/|/|
@@ -56,7 +57,7 @@ I forgot to take a picture, enjoy this ascii art
 
 
 
-The burger was as good as I had imagined it would be, especially since I didn't need to pay for it. But more importantly, I had all the request information I needed to start the reverse engineering.  All in all it took me about 8 hours to distill only the necesary requests for placing and order. I found it only takes 4 POST and 1 PUT request on Grubhub to make an order.  To save you all the time, here they are:
+The burger was as good as I had imagined it would be, especially since it was on the company dime. But more importantly, I had all the request information I needed to start the reverse engineering.  All in all it took me about 8 hours to distill only the necesary requests for placing and order. I found it only takes 4 POST and 1 PUT request on Grubhub to make an order.  To save you all the time, here they are:
 
 1. **POST `/carts`:** This route creates a new cart on the user's account
 2. **POST `/carts/{cart_id}/lines`:** This allows us to add an item to the cart we just created
@@ -120,7 +121,7 @@ Here is an example of one of the tool schemas for `/get_restaurant_items`:
 }
 ```
 
-This response it easy to parse with `JSON.loads()` and then can be validated with something like zod or pydantic to ensure it is correct.  These tool schemas are declared in the `package.json` file in the extension which you can find [here](https://github.com/andrewlayer/grubhub/blob/main/package.json)!
+This response it easy to parse with `JSON.loads()` and then can be validated with something like [Zod](https://zod.dev) and [Pydantic](https://pydantic.dev) to ensure it is correct.  These tool schemas are declared in the `package.json` file in the extension which you can find [here](https://github.com/andrewlayer/grubhub/blob/main/package.json)!
 
 ### Function Calling ☎️
 So now that we have our JSON, we need to use it to invoke a function. In the case of calling an API endpoint, that means we need to take our parameters and shove them into javascript `fetch`.  Here is how we got that done for `/get_restaurant_items`:
@@ -164,7 +165,7 @@ const res = await grubhubClient.getRestaurantItems(options.input.restaurant_id);
 You can see we get the restaurant ID.  You might be asking, "but sir 🧐 how did you parse the JSON?".  Well, you see, by implementing the language model tool class, this is done automatically for me as long as I provide a JSON schema!
 
 ## Workflows (a quick aside)
-Now in order to make any agentic experience nice, you really need workflows.  Why is this, well let me show you a hypothetical conversation and see if you understand:
+Now in order to make any agentic experience nice, you really need workflows.  *Why is this?* Well, let me show you a hypothetical conversation and see if you understand:
 
 <div style={{display: "flex", flexDirection: "column", gap: "16px"}}>
     <div style={{padding: "20px", backgroundColor: "#333", borderRadius: "10px"}}>
@@ -211,7 +212,7 @@ Now in order to make any agentic experience nice, you really need workflows.  Wh
 
 The above conversation is the actual flow of API calls required for Copilot to list restaurants for Grubhub (moderately dramatized). This obviously isn't very user friendly. You see, most APIs our of the box are not ready to be used by AI agents because they provide bad UX and require additional information that us as users (and LLMs) don't care about.  Thus we must clean and simplify the API
 
-So how can we accomplish these workflow. Well in this project, I hardcode them all.  But if you are interested in effortlessly cleaning your api for agents to use effectively... allow me shill you my product 😉 --> [Layer](https://buildwithlayer.com/).
+So how can we accomplish these workflow. Well in this project, I hardcode them all.  But if you are interested in effortlessly cleaning your API for agents to use effectively... Allow me to introduce you to [Layer.](https://buildwithlayer.com/).
 
 ## Gosh are we done yet?
 For the most part, yes. But don't you want to order some food? 
@@ -222,6 +223,6 @@ For the most part, yes. But don't you want to order some food?
 
 3. Input those values into the VSCode Grubhub extension settings:<br/>![VSCode Settings](./assets/vscode_grubhub_extension/vscode_settings.png)
 
-4. Restart VSCode and Voilà 🎉!
+4. Restart VSCode et voilà 🎉!
 
 You can now use the VSCode chat extension!  If for some reason you like my content, feel free to subscribe to my [newsletter](https://docs.google.com/forms/d/e/1FAIpQLSf4WGoin0w1eM5f9cwZ4kyd7ocx9i2uAmMVNPAj80_prSUHDg/viewform?usp=dialog).  I promise to sell your email to the highest bidder! (just kidding, it will stay with me).

@@ -2,14 +2,9 @@
   "permalink": "/vscode_grubhub_extension",
   "source": "@site/blog/vscode_grubhub_extension.mdx",
   "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
-  "description": "Discover how AI agents are reshaping the go-to-market strategy for APIs. Learn why making your API agent-friendly with AI-powered tools like GitHub Copilot and prompt-to-app builders is crucial for reaching new users and driving adoption.",
-  "date": "2025-02-25T00:00:00.000Z",
+  "description": "I built a VS Code chat extension that orders food from Grubhub using AI-driven API calls. Follow along as I reverse-engineer Grubhub’s API, integrate it with VS Code, and accidentally order myself a cheeseburger in the process.",
+  "date": "2025-02-27T00:00:00.000Z",
   "tags": [
-    {
-      "inline": true,
-      "label": "AI Go-to-Market",
-      "permalink": "/tags/ai-go-to-market"
-    },
     {
       "inline": true,
       "label": "LLM Extensibility",
@@ -34,9 +29,19 @@
       "inline": true,
       "label": "AI Agents",
       "permalink": "/tags/ai-agents"
+    },
+    {
+      "inline": true,
+      "label": "VS Code",
+      "permalink": "/tags/vs-code"
+    },
+    {
+      "inline": true,
+      "label": "Grubhub",
+      "permalink": "/tags/grubhub"
     }
   ],
-  "readingTime": 8.73,
+  "readingTime": 8.595,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -55,32 +60,30 @@
     "authors": [
       "aham"
     ],
-    "date": "2025-02-25T00:00:00.000Z",
-    "description": "Discover how AI agents are reshaping the go-to-market strategy for APIs. Learn why making your API agent-friendly with AI-powered tools like GitHub Copilot and prompt-to-app builders is crucial for reaching new users and driving adoption.",
+    "date": "2025-02-27T00:00:00.000Z",
+    "description": "I built a VS Code chat extension that orders food from Grubhub using AI-driven API calls. Follow along as I reverse-engineer Grubhub’s API, integrate it with VS Code, and accidentally order myself a cheeseburger in the process.",
     "tags": [
-      "AI Go-to-Market",
       "LLM Extensibility",
       "API",
       "Developer Experience (DX)",
       "Agent Experience (AX)",
-      "AI Agents"
+      "AI Agents",
+      "VS Code",
+      "Grubhub"
     ],
     "keywords": [
-      "AI Go-to-Market",
       "LLM Extensibility",
       "API",
       "Developer Experience (DX)",
       "Agent Experience (AX)",
-      "AI Agents"
+      "AI Agents",
+      "VS Code",
+      "Grubhub"
     ]
   },
   "unlisted": false,
-  "prevItem": {
+  "nextItem": {
     "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
     "permalink": "/ai_gtm"
-  },
-  "nextItem": {
-    "title": "How Layer Built Neon’s Copilot Extension",
-    "permalink": "/layer_neon_copilot_extension"
   }
 }

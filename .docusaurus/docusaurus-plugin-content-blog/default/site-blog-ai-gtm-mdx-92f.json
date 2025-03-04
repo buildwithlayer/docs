@@ -75,8 +75,12 @@
     ]
   },
   "unlisted": false,
-  "nextItem": {
+  "prevItem": {
     "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
     "permalink": "/vscode_grubhub_extension"
+  },
+  "nextItem": {
+    "title": "How Layer Built Neon’s Copilot Extension",
+    "permalink": "/layer_neon_copilot_extension"
   }
 }
