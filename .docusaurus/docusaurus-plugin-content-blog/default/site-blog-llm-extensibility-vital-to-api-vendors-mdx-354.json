@@ -1,5 +1,5 @@
 {
-  "permalink": "/llm_extensibility_vital_to_api_vendors",
+  "permalink": "/blog/llm_extensibility_vital_to_api_vendors",
   "source": "@site/blog/llm_extensibility_vital_to_api_vendors.mdx",
   "title": "Why LLM Extensibility is Vital to API Vendors",
   "description": "Layer AI Blog | Why LLM Extensibility is Vital to API Vendors",
@@ -8,22 +8,22 @@
     {
       "inline": true,
       "label": "LLM Extensibility",
-      "permalink": "/tags/llm-extensibility"
+      "permalink": "/blog/tags/llm-extensibility"
     },
     {
       "inline": true,
       "label": "API",
-      "permalink": "/tags/api"
+      "permalink": "/blog/tags/api"
     },
     {
       "inline": true,
       "label": "Developer Experience (DX)",
-      "permalink": "/tags/developer-experience-dx"
+      "permalink": "/blog/tags/developer-experience-dx"
     },
     {
       "inline": true,
       "label": "Agent Experience (AX)",
-      "permalink": "/tags/agent-experience-ax"
+      "permalink": "/blog/tags/agent-experience-ax"
     }
   ],
   "readingTime": 8.405,
@@ -72,10 +72,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "How Layer Built Neon’s Copilot Extension",
-    "permalink": "/layer_neon_copilot_extension"
+    "permalink": "/blog/layer_neon_copilot_extension"
   },
   "nextItem": {
     "title": "LLM Extensibility 101",
-    "permalink": "/llm_extensibility"
+    "permalink": "/blog/llm_extensibility"
   }
 }

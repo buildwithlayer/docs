@@ -5,19 +5,19 @@
   "source": "@site/docs/deployments/index.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/",
-  "permalink": "/docs/deployments/",
+  "permalink": "/deployments/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Analytics",
-    "permalink": "/docs/management-dashboard/analytics"
+    "permalink": "/management-dashboard/analytics"
   },
   "next": {
     "title": "Web Widget",
-    "permalink": "/docs/deployments/web-widget"
+    "permalink": "/deployments/web-widget"
   }
 }

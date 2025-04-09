@@ -1,5 +1,5 @@
 {
-  "permalink": "/dry_with_api_flask",
+  "permalink": "/blog/dry_with_api_flask",
   "source": "@site/blog/dry_with_api_flask.mdx",
   "title": "Keep Your Data DRY with APIFlask",
   "description": "Layer AI Blog | Keep Your Data DRY with APIFlask",
@@ -8,27 +8,27 @@
     {
       "inline": true,
       "label": "DRY",
-      "permalink": "/tags/dry"
+      "permalink": "/blog/tags/dry"
     },
     {
       "inline": true,
       "label": "APIFlask",
-      "permalink": "/tags/api-flask"
+      "permalink": "/blog/tags/api-flask"
     },
     {
       "inline": true,
       "label": "SQLAlchemy",
-      "permalink": "/tags/sql-alchemy"
+      "permalink": "/blog/tags/sql-alchemy"
     },
     {
       "inline": true,
       "label": "Marshmallow",
-      "permalink": "/tags/marshmallow"
+      "permalink": "/blog/tags/marshmallow"
     },
     {
       "inline": true,
       "label": "OneOfSchema",
-      "permalink": "/tags/one-of-schema"
+      "permalink": "/blog/tags/one-of-schema"
     }
   ],
   "readingTime": 12.64,
@@ -81,6 +81,6 @@
   "unlisted": false,
   "prevItem": {
     "title": "LLM Extensibility 101",
-    "permalink": "/llm_extensibility"
+    "permalink": "/blog/llm_extensibility"
   }
 }

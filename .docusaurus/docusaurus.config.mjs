@@ -13,15 +13,6 @@ export default {
   "projectName": "docs",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
-  "scripts": [
-    {
-      "src": "https://widget.buildwithlayer.com",
-      "type": "text/javascript",
-      "id": "layer-widget-script",
-      "api-key": "b962b39e-2fc6-4fa9-b1a0-82cc46db7481",
-      "palette-mode": "dark"
-    }
-  ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -34,6 +25,10 @@ export default {
     [
       "classic",
       {
+        "docs": {
+          "sidebarPath": "./sidebars.ts",
+          "routeBasePath": "/"
+        },
         "blog": {
           "showReadingTime": true,
           "feedOptions": {
@@ -43,7 +38,7 @@ export default {
             ],
             "xslt": true
           },
-          "routeBasePath": "/",
+          "routeBasePath": "/blog",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -67,8 +62,24 @@ export default {
       },
       "items": [
         {
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
+          "position": "left",
+          "label": "Documentation"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
           "href": "https://buildwithlayer.com",
-          "label": "buildwithlayer.com",
+          "label": "Layer Website",
+          "position": "right"
+        },
+        {
+          "href": "https://dashboard.buildwithlayer.com",
+          "label": "Management Dashboard",
           "position": "right"
         }
       ],
@@ -330,6 +341,7 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
+  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],

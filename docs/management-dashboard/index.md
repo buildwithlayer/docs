@@ -1,13 +1,15 @@
 # Management Dashboard
 
-![Management Dashboard Screenshot](../../static/img/management-dashboard.jpeg)
+![Management Dashboard Screenshot](../../static/img/management-dash.png)
 
-The **Management Dashboard** is the central hub for managing and configuring all aspects of your LLM extensions.
+The **Management Dashboard** is the central hub for creating, managing, and maintaining your MCP server using Layer.
 
 From this dashboard, you can:
 
-- **[Manage Knowledge Sources](/management-dashboard/sources)**: Upload and organize the resources that Layer will use to answer developer queries.
-- **[Test Responses](/management-dashboard/rag-testing)**: See how your LLM extensions will reply based on the sources you've added and your RAG configuration settings.
-- **[Fine-Tune the RAG](/management-dashboard/rag-config)**: If you aren't getting the responses you expect, you can adjust the RAG settings to improve them.
-- **[Customize & Deploy Extensions](/management-dashboard/deploying)**: Easily deploy AI-powered extensions to multiple platforms, such as VS Code, GitHub Copilot, and your website.
-- **[Monitor Analytics](/management-dashboard/analytics)**: View insights on what developers are asking and identify pain points to continuously improve your documentation and product.
+- **[Manage Resources](/management-dashboard/resources)**: Upload the resources (docs, files, GitHub content, etc.) that your MCP server will use to provide relevant context to agents.
+- **[Define Tools](/management-dashboard/tools)**: Add structured API endpoints agents can call via MCP, using your OpenAPI spec or manual configuration.
+- **[Author Prompts](/management-dashboard/prompts)**: Create workflows or instructional content that guides how agents interact with your product.
+- **[Test with the Demo MCP Server](/management-dashboard/testing)**: Instantly test your server’s behavior in supported clients using your Layer-hosted demo server. For details about deploying a self-hosted MCP server, see **[MCP Server Generator](/generator)**.
+- **[Monitor Analytics](/management-dashboard/analytics)**: Get insights into which tools and prompts users are accessing through your MCP server.
+
+Use the dashboard to easily manage the content of your MCP server. As client support evolves, Layer automatically keeps your server aligned with the latest supported features.

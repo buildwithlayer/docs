@@ -1,0 +1,23 @@
+{
+  "id": "mcp_server_generator",
+  "title": "MCP Server Generator",
+  "description": "Once you're ready to go beyond testing with your demo server, Layer provides a CLI to help you generate a production-ready MCP server that you can self-publish.",
+  "source": "@site/docs/mcp_server_generator.md",
+  "sourceDirName": ".",
+  "slug": "/generator",
+  "permalink": "/generator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "slug": "/generator"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Demo MCP Server",
+    "permalink": "/demo-mcp-server"
+  }
+}

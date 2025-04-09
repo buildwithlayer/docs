@@ -5,7 +5,7 @@
   "source": "@site/docs/deployments/vs-code.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/vs-code",
-  "permalink": "/docs/deployments/vs-code",
+  "permalink": "/deployments/vs-code",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Web Widget",
-    "permalink": "/docs/deployments/web-widget"
+    "permalink": "/deployments/web-widget"
   },
   "next": {
     "title": "GitHub Copilot Extension",
-    "permalink": "/docs/deployments/copilot"
+    "permalink": "/deployments/copilot"
   }
 }

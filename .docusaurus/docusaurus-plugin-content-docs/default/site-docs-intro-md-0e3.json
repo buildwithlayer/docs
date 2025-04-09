@@ -1,11 +1,11 @@
 {
   "id": "intro",
   "title": "Introduction",
-  "description": "Welcome to Layer, the platform that transforms your product documentation into AI-powered chat assistants. With Layer, your developers no longer have to sift through heaps of documentation. Instead, they get accurate, context-specific answers directly in their IDEs, on your website, and within the AI tools they already use.",
+  "description": "What is Layer",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/docs/",
+  "permalink": "/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -15,9 +15,9 @@
     "sidebar_position": 1,
     "slug": "/"
   },
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "next": {
     "title": "Management Dashboard",
-    "permalink": "/docs/management-dashboard/"
+    "permalink": "/management-dashboard/"
   }
 }

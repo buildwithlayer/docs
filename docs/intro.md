@@ -5,48 +5,43 @@ slug: /
 
 # Introduction
 
-Welcome to **Layer**, the platform that transforms your product documentation into **AI-powered chat assistants**. With Layer, your developers no longer have to sift through heaps of documentation. Instead, they get accurate, context-specific answers directly in their IDEs, on your website, and within the AI tools they already use.
+## What is Layer
 
-Layer enables you to **deploy LLM extensions** to multiple locations, including a **chat widget** on your documentation site, **VS Code**, **GitHub Copilot**, and more. These integrations provide real-time, relevant support, helping your developers integrate your product more efficiently.
+Layer gives you everything you need to make your product usable by **AI agents**—whether they’re running in Claude, Cursor, VS Code, or any other MCP client.
 
-Layer also provides valuable **analytics**, allowing you to track what developers are asking, identify pain points, and gain insights into how to continuously improve your product and documentation.
-
----
-
-## Key Features
-
-- **Instant LLM Deployments**: Deploy intelligent chat assistants to your docs, VS Code, GitHub Copilot, and more.
-- **Enhanced Developer Experience**: Developers get contextual, accurate help without leaving their tools.
-- **Analytics & Insights**: Track what your developers are asking and where they need more support.
-- **Multiple Ecosystem Integrations**: Easily integrate with tools like **VS Code**, **GitHub Copilot**, and your **documentation website**, with more integrations coming soon.
+We help you create and maintain a **Model Context Protocol (MCP) server** for your product so you can expose context, capabilities, and guidance to agents with minimal overhead. This includes support for **resources**, **prompts**, and **tools**—the key components MCP-powered agents rely on to understand and use your product effectively.
 
 ---
 
-## Why Layer?
+## What’s Included
 
-With **Layer**, you provide your developers with intelligent, context-aware AI assistants that improve productivity and reduce frustration. By offering real-time, relevant support, you increase adoption and make it easier for developers to integrate your tools.
+Layer provides:
 
-Layer also gives you valuable **insights** into what developers are struggling with, enabling you to refine your product documentation and improve the overall developer experience.
-
----
-
-## How It Works
-
-1. **Upload Documentation**: Add your documentation, code examples, and other resources to Layer.
-2. **Deploy Extensions**: Instantly deploy LLM-powered assistants to your website, VS Code, GitHub, etc.
-3. **Monitor & Improve**: Use our analytics to see developer interactions and continuously enhance your documentation and product.
-
----
-
-## Supported Platforms
-
-Layer integrates with the most popular developer ecosystems:
-
-- **VS Code Extensions**: Contextual support directly in the IDE.
-- **GitHub Copilot Extensions**: Enhance Copilot’s suggestions with tailored documentation.
-- **Web Widget**: Embed a chat widget on your docs site for instant assistance.
-- **Coming Soon**: Integrations with OpenAI GPTs and Google Gemini Tools.
+- An easy-to-use interface for creating and managing your MCP server
+- Support for:
+  - **Resources** – Documentation or other structured context
+  - **Prompts** – Instructional content or workflows that shape how agents respond
+  - **Tools** – Structured API endpoint calls agents can use to interact with your product
+- Automatic updates to keep your server aligned with the latest client-supported features
+- An automatically generated **Demo MCP Server** to help you instantly test your sever's capabilities
+- A CLI for generating your own self-hosted and customizable MCP server
 
 ---
 
-Empower your developers with smarter, AI-driven tools while gaining valuable insights into their needs. With **Layer**, you can transform your documentation into a powerful resource that improves both developer experience and product adoption.
+## Why MCP (and Why Layer)
+
+The **Model Context Protocol (MCP)** standardizes how AI agents consume external context, call tools, and make decisions. It’s powerful—but still evolving. Many client platforms only support a subset of the spec, and behavior can vary across tools.
+
+Layer makes creating your server and keeping your MCP server up to date with the latest client expectations super easy. We handle compatibility and protocol changes so you don’t have to.
+
+---
+
+## What You’ll Find in These Docs
+
+- How to use Layer's **Management Dashboard** to create and manage:
+  - **Resources** (reference content for agents)
+  - **Prompts** (agent workflows and behavior shaping)
+  - **Tools** (structured API endpoint calls usable by agents)
+- How to test your server inside supported agent clients
+- How to generate and publish your own self-hosted MCP server
+- Best practices for making your product easy to use via AI agents

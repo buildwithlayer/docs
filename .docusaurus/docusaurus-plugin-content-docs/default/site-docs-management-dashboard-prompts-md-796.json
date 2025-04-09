@@ -1,0 +1,26 @@
+{
+  "id": "management-dashboard/prompts",
+  "title": "Prompts",
+  "description": "Prompts define structured workflows that guide how AI agents interact with your product. Each prompt can include a series of steps that provide context, suggest actions, or instruct the agent to call specific tools.",
+  "source": "@site/docs/management-dashboard/prompts.md",
+  "sourceDirName": "management-dashboard",
+  "slug": "/management-dashboard/prompts",
+  "permalink": "/management-dashboard/prompts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/management-dashboard/resources"
+  },
+  "next": {
+    "title": "Tools",
+    "permalink": "/management-dashboard/tools"
+  }
+}

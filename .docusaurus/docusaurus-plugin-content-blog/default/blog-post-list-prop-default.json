@@ -3,31 +3,31 @@
   "items": [
     {
       "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
-      "permalink": "/vscode_grubhub_extension",
+      "permalink": "/blog/vscode_grubhub_extension",
       "unlisted": false,
       "date": "2025-02-27T00:00:00.000Z"
     },
     {
       "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
-      "permalink": "/ai_gtm",
+      "permalink": "/blog/ai_gtm",
       "unlisted": false,
       "date": "2025-02-25T00:00:00.000Z"
     },
     {
       "title": "How Layer Built Neon’s Copilot Extension",
-      "permalink": "/layer_neon_copilot_extension",
+      "permalink": "/blog/layer_neon_copilot_extension",
       "unlisted": false,
       "date": "2025-02-20T00:00:00.000Z"
     },
     {
       "title": "Why LLM Extensibility is Vital to API Vendors",
-      "permalink": "/llm_extensibility_vital_to_api_vendors",
+      "permalink": "/blog/llm_extensibility_vital_to_api_vendors",
       "unlisted": false,
       "date": "2025-02-13T00:00:00.000Z"
     },
     {
       "title": "LLM Extensibility 101",
-      "permalink": "/llm_extensibility",
+      "permalink": "/blog/llm_extensibility",
       "unlisted": false,
       "date": "2025-01-28T00:00:00.000Z"
     }

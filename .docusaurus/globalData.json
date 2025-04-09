@@ -1,91 +1,61 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/",
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "deployments/copilot",
-              "path": "/docs/deployments/copilot",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "deployments/gemini",
-              "path": "/docs/deployments/gemini",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "deployments/gpt",
-              "path": "/docs/deployments/gpt",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "deployments/index",
-              "path": "/docs/deployments/",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "deployments/vs-code",
-              "path": "/docs/deployments/vs-code",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "deployments/web-widget",
-              "path": "/docs/deployments/web-widget",
-              "sidebar": "defaultSidebar"
+              "id": "demo_mcp_server",
+              "path": "/demo-mcp-server",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/",
-              "sidebar": "defaultSidebar"
+              "path": "/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "management-dashboard/analytics",
-              "path": "/docs/management-dashboard/analytics",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "management-dashboard/deploying",
-              "path": "/docs/management-dashboard/deploying",
-              "sidebar": "defaultSidebar"
+              "path": "/management-dashboard/analytics",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "management-dashboard/index",
-              "path": "/docs/management-dashboard/",
-              "sidebar": "defaultSidebar"
+              "path": "/management-dashboard/",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "management-dashboard/rag-config",
-              "path": "/docs/management-dashboard/rag-config",
-              "sidebar": "defaultSidebar"
+              "id": "management-dashboard/prompts",
+              "path": "/management-dashboard/prompts",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "management-dashboard/rag-testing",
-              "path": "/docs/management-dashboard/rag-testing",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "management-dashboard/sources",
-              "path": "/docs/management-dashboard/sources",
-              "sidebar": "defaultSidebar"
+              "id": "management-dashboard/resources",
+              "path": "/management-dashboard/resources",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "management-dashboard/tools",
-              "path": "/docs/management-dashboard/tools",
-              "sidebar": "defaultSidebar"
+              "path": "/management-dashboard/tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mcp_server_generator",
+              "path": "/generator",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "defaultSidebar": {
+            "tutorialSidebar": {
               "link": {
-                "path": "/docs/",
+                "path": "/",
                 "label": "intro"
               }
             }
