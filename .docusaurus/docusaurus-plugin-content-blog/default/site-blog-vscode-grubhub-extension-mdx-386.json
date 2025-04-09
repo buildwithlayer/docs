@@ -1,5 +1,5 @@
 {
-  "permalink": "/vscode_grubhub_extension",
+  "permalink": "/blog/vscode_grubhub_extension",
   "source": "@site/blog/vscode_grubhub_extension.mdx",
   "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
   "description": "I built a VS Code chat extension that orders food from Grubhub using AI-driven API calls. Follow along as I reverse-engineer Grubhub’s API, integrate it with VS Code, and accidentally order myself a cheeseburger in the process.",
@@ -8,40 +8,40 @@
     {
       "inline": true,
       "label": "LLM Extensibility",
-      "permalink": "/tags/llm-extensibility"
+      "permalink": "/blog/tags/llm-extensibility"
     },
     {
       "inline": true,
       "label": "API",
-      "permalink": "/tags/api"
+      "permalink": "/blog/tags/api"
     },
     {
       "inline": true,
       "label": "Developer Experience (DX)",
-      "permalink": "/tags/developer-experience-dx"
+      "permalink": "/blog/tags/developer-experience-dx"
     },
     {
       "inline": true,
       "label": "Agent Experience (AX)",
-      "permalink": "/tags/agent-experience-ax"
+      "permalink": "/blog/tags/agent-experience-ax"
     },
     {
       "inline": true,
       "label": "AI Agents",
-      "permalink": "/tags/ai-agents"
+      "permalink": "/blog/tags/ai-agents"
     },
     {
       "inline": true,
       "label": "VS Code",
-      "permalink": "/tags/vs-code"
+      "permalink": "/blog/tags/vs-code"
     },
     {
       "inline": true,
       "label": "Grubhub",
-      "permalink": "/tags/grubhub"
+      "permalink": "/blog/tags/grubhub"
     }
   ],
-  "readingTime": 8.595,
+  "readingTime": 8.535,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -84,6 +84,6 @@
   "unlisted": false,
   "nextItem": {
     "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
-    "permalink": "/ai_gtm"
+    "permalink": "/blog/ai_gtm"
   }
 }

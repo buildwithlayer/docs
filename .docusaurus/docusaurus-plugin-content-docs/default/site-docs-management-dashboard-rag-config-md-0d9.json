@@ -5,7 +5,7 @@
   "source": "@site/docs/management-dashboard/rag-config.md",
   "sourceDirName": "management-dashboard",
   "slug": "/management-dashboard/rag-config",
-  "permalink": "/docs/management-dashboard/rag-config",
+  "permalink": "/management-dashboard/rag-config",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 4
   },
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Testing the RAG",
-    "permalink": "/docs/management-dashboard/rag-testing"
+    "title": "Managing Tools (Coming Soon)",
+    "permalink": "/management-dashboard/tools"
   },
   "next": {
     "title": "Deploying",
-    "permalink": "/docs/management-dashboard/deploying"
+    "permalink": "/management-dashboard/deploying"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/deployments/gpt.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/gpt",
-  "permalink": "/docs/deployments/gpt",
+  "permalink": "/deployments/gpt",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 4
   },
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "GitHub Copilot Extension",
-    "permalink": "/docs/deployments/copilot"
+    "permalink": "/deployments/copilot"
   },
   "next": {
     "title": "Google Gemini Tools (Coming Soon)",
-    "permalink": "/docs/deployments/gemini"
+    "permalink": "/deployments/gemini"
   }
 }

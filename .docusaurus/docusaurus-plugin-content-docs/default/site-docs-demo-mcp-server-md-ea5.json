@@ -1,0 +1,27 @@
+{
+  "id": "demo_mcp_server",
+  "title": "Demo MCP Server",
+  "description": "When you sign up for Layer, we automatically generate a Demo MCP Server for your product. This is a hosted MCP server used to test and validate your setup across supported clients before deploying your own self-hosted version.",
+  "source": "@site/docs/demo_mcp_server.md",
+  "sourceDirName": ".",
+  "slug": "/demo-mcp-server",
+  "permalink": "/demo-mcp-server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/demo-mcp-server"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Analytics",
+    "permalink": "/management-dashboard/analytics"
+  },
+  "next": {
+    "title": "MCP Server Generator",
+    "permalink": "/generator"
+  }
+}

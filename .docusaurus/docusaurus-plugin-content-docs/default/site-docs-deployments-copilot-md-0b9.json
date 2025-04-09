@@ -5,7 +5,7 @@
   "source": "@site/docs/deployments/copilot.md",
   "sourceDirName": "deployments",
   "slug": "/deployments/copilot",
-  "permalink": "/docs/deployments/copilot",
+  "permalink": "/deployments/copilot",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 3
   },
-  "sidebar": "defaultSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VS Code Extension",
-    "permalink": "/docs/deployments/vs-code"
+    "permalink": "/deployments/vs-code"
   },
   "next": {
     "title": "OpenAI GPTs (Coming Soon)",
-    "permalink": "/docs/deployments/gpt"
+    "permalink": "/deployments/gpt"
   }
 }

@@ -1,403 +1,5 @@
 {
-  "/ai_gtm-1ba": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "92f95eb3"
-  },
-  "/archive-51a": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "b266de79"
-  },
-  "/authors-498": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "3f9ae9f6"
-  },
-  "/dry_with_api_flask-f81": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "4349639d"
-  },
-  "/layer_neon_copilot_extension-df1": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "8aa8af83"
-  },
-  "/llm_extensibility-73b": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "a4613bc5"
-  },
-  "/llm_extensibility_vital_to_api_vendors-44e": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "354f2cfc"
-  },
-  "/tags-626": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "c2a3e543"
-  },
-  "/tags/agent-experience-ax-e18": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      },
-      {
-        "content": "84314087"
-      },
-      {
-        "content": "184c6921"
-      },
-      {
-        "content": "918e31b3"
-      }
-    ],
-    "__props": "4676f530"
-  },
-  "/tags/ai-agents-2d8": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      },
-      {
-        "content": "84314087"
-      }
-    ],
-    "__props": "1f8fe5fd"
-  },
-  "/tags/ai-go-to-market-742": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "84314087"
-      }
-    ],
-    "__props": "073e2460"
-  },
-  "/tags/api-37e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      },
-      {
-        "content": "84314087"
-      },
-      {
-        "content": "184c6921"
-      },
-      {
-        "content": "918e31b3"
-      }
-    ],
-    "__props": "e5f0e2b3"
-  },
-  "/tags/api-flask-c31": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d2e8bde3"
-      }
-    ],
-    "__props": "f8a05aed"
-  },
-  "/tags/developer-experience-dx-062": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      },
-      {
-        "content": "84314087"
-      },
-      {
-        "content": "184c6921"
-      },
-      {
-        "content": "918e31b3"
-      }
-    ],
-    "__props": "e19ae8a2"
-  },
-  "/tags/dry-93d": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d2e8bde3"
-      }
-    ],
-    "__props": "ca915ce2"
-  },
-  "/tags/git-hub-copilot-aa7": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "184c6921"
-      }
-    ],
-    "__props": "dc9e9267"
-  },
-  "/tags/grubhub-db8": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      }
-    ],
-    "__props": "3d95ec15"
-  },
-  "/tags/llm-extensibility-37e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      },
-      {
-        "content": "84314087"
-      },
-      {
-        "content": "184c6921"
-      },
-      {
-        "content": "918e31b3"
-      },
-      {
-        "content": "428968fa"
-      }
-    ],
-    "__props": "794a8075"
-  },
-  "/tags/marshmallow-899": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d2e8bde3"
-      }
-    ],
-    "__props": "f29450b4"
-  },
-  "/tags/neon-361": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "184c6921"
-      }
-    ],
-    "__props": "b48d4d83"
-  },
-  "/tags/one-of-schema-4f0": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d2e8bde3"
-      }
-    ],
-    "__props": "5b300c89"
-  },
-  "/tags/sql-alchemy-889": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d2e8bde3"
-      }
-    ],
-    "__props": "4d76ba38"
-  },
-  "/tags/vs-code-c0a": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "bf9d90d2"
-      }
-    ],
-    "__props": "98ef0507"
-  },
-  "/vscode_grubhub_extension-9dc": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "386458ea"
-  },
-  "/docs-704": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
-    }
-  },
-  "/docs-203": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
-  },
-  "/docs-a5c": {
-    "__comp": "a94703ab"
-  },
-  "/docs/-bc1": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/docs/deployments/-102": {
-    "__comp": "17896441",
-    "content": "1899731c"
-  },
-  "/docs/deployments/copilot-757": {
-    "__comp": "17896441",
-    "content": "0b9234f1"
-  },
-  "/docs/deployments/gemini-a47": {
-    "__comp": "17896441",
-    "content": "31a72f0f"
-  },
-  "/docs/deployments/gpt-7b3": {
-    "__comp": "17896441",
-    "content": "5e299fad"
-  },
-  "/docs/deployments/vs-code-3ef": {
-    "__comp": "17896441",
-    "content": "2ae54794"
-  },
-  "/docs/deployments/web-widget-f6b": {
-    "__comp": "17896441",
-    "content": "7a7a314e"
-  },
-  "/docs/management-dashboard/-b28": {
-    "__comp": "17896441",
-    "content": "2faab9d4"
-  },
-  "/docs/management-dashboard/analytics-28e": {
-    "__comp": "17896441",
-    "content": "0749739a"
-  },
-  "/docs/management-dashboard/deploying-3bf": {
-    "__comp": "17896441",
-    "content": "3785fa70"
-  },
-  "/docs/management-dashboard/rag-config-baf": {
-    "__comp": "17896441",
-    "content": "0d999669"
-  },
-  "/docs/management-dashboard/rag-testing-486": {
-    "__comp": "17896441",
-    "content": "34fd176e"
-  },
-  "/docs/management-dashboard/sources-acf": {
-    "__comp": "17896441",
-    "content": "7a812091"
-  },
-  "/docs/management-dashboard/tools-2f7": {
-    "__comp": "17896441",
-    "content": "d13a38fe"
-  },
-  "/-80c": {
+  "/blog-2f6": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -423,6 +25,380 @@
         "content": "d2e8bde3"
       }
     ],
-    "__props": "1a1424c7"
+    "__props": "c15d9823"
+  },
+  "/blog/ai_gtm-e18": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "92f95eb3"
+  },
+  "/blog/archive-182": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "f81c1134"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ef8b811a"
+  },
+  "/blog/dry_with_api_flask-823": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "4349639d"
+  },
+  "/blog/layer_neon_copilot_extension-46c": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "8aa8af83"
+  },
+  "/blog/llm_extensibility-4fa": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "a4613bc5"
+  },
+  "/blog/llm_extensibility_vital_to_api_vendors-bf3": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "354f2cfc"
+  },
+  "/blog/tags-287": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "3a2db09e"
+  },
+  "/blog/tags/agent-experience-ax-288": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      },
+      {
+        "content": "184c6921"
+      },
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "d896bec7"
+  },
+  "/blog/tags/ai-agents-b67": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      }
+    ],
+    "__props": "95807459"
+  },
+  "/blog/tags/ai-go-to-market-14a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "84314087"
+      }
+    ],
+    "__props": "8ffd33d5"
+  },
+  "/blog/tags/api-539": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      },
+      {
+        "content": "184c6921"
+      },
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "f525eb8a"
+  },
+  "/blog/tags/api-flask-e07": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "7378c62f"
+  },
+  "/blog/tags/developer-experience-dx-8f3": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      },
+      {
+        "content": "184c6921"
+      },
+      {
+        "content": "918e31b3"
+      }
+    ],
+    "__props": "0723a4c0"
+  },
+  "/blog/tags/dry-612": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "c40db1c7"
+  },
+  "/blog/tags/git-hub-copilot-f4d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "184c6921"
+      }
+    ],
+    "__props": "1a94c249"
+  },
+  "/blog/tags/grubhub-962": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      }
+    ],
+    "__props": "2dec0e11"
+  },
+  "/blog/tags/llm-extensibility-127": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      },
+      {
+        "content": "84314087"
+      },
+      {
+        "content": "184c6921"
+      },
+      {
+        "content": "918e31b3"
+      },
+      {
+        "content": "428968fa"
+      }
+    ],
+    "__props": "c99d5340"
+  },
+  "/blog/tags/marshmallow-160": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "2fd9b387"
+  },
+  "/blog/tags/neon-3e6": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "184c6921"
+      }
+    ],
+    "__props": "e9f5d146"
+  },
+  "/blog/tags/one-of-schema-ca8": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "b288a993"
+  },
+  "/blog/tags/sql-alchemy-b95": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d2e8bde3"
+      }
+    ],
+    "__props": "8ab589e0"
+  },
+  "/blog/tags/vs-code-3c4": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bf9d90d2"
+      }
+    ],
+    "__props": "f6e4319b"
+  },
+  "/blog/vscode_grubhub_extension-f51": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "386458ea"
+  },
+  "/-a56": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/-061": {
+    "__comp": "a7bd4aaa",
+    "__props": "22dd74f7"
+  },
+  "/-360": {
+    "__comp": "a94703ab"
+  },
+  "/demo-mcp-server-f4e": {
+    "__comp": "17896441",
+    "content": "ea597649"
+  },
+  "/generator-065": {
+    "__comp": "17896441",
+    "content": "ea20a157"
+  },
+  "/management-dashboard/-c89": {
+    "__comp": "17896441",
+    "content": "2faab9d4"
+  },
+  "/management-dashboard/analytics-dde": {
+    "__comp": "17896441",
+    "content": "0749739a"
+  },
+  "/management-dashboard/prompts-2d4": {
+    "__comp": "17896441",
+    "content": "7965c067"
+  },
+  "/management-dashboard/resources-0e8": {
+    "__comp": "17896441",
+    "content": "ec25cc2d"
+  },
+  "/management-dashboard/tools-96d": {
+    "__comp": "17896441",
+    "content": "d13a38fe"
+  },
+  "/-fc9": {
+    "__comp": "17896441",
+    "content": "0e384e19"
   }
 }

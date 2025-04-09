@@ -1,5 +1,5 @@
 {
-  "permalink": "/layer_neon_copilot_extension",
+  "permalink": "/blog/layer_neon_copilot_extension",
   "source": "@site/blog/layer_neon_copilot_extension.mdx",
   "title": "How Layer Built Neon’s Copilot Extension",
   "description": "This blog demonstrates how Layer created a GitHub Copilot extension for Neon, a serverless, open-source PostgreSQL database. We build Copilot extensions (and other AI integrations) for companies that want to embrace AI Agents in their go-to-market process. If you’d like to see how we can help, read on—or book a demo to learn more",
@@ -8,32 +8,32 @@
     {
       "inline": true,
       "label": "LLM Extensibility",
-      "permalink": "/tags/llm-extensibility"
+      "permalink": "/blog/tags/llm-extensibility"
     },
     {
       "inline": true,
       "label": "API",
-      "permalink": "/tags/api"
+      "permalink": "/blog/tags/api"
     },
     {
       "inline": true,
       "label": "Developer Experience (DX)",
-      "permalink": "/tags/developer-experience-dx"
+      "permalink": "/blog/tags/developer-experience-dx"
     },
     {
       "inline": true,
       "label": "Agent Experience (AX)",
-      "permalink": "/tags/agent-experience-ax"
+      "permalink": "/blog/tags/agent-experience-ax"
     },
     {
       "inline": true,
       "label": "GitHub Copilot",
-      "permalink": "/tags/git-hub-copilot"
+      "permalink": "/blog/tags/git-hub-copilot"
     },
     {
       "inline": true,
       "label": "Neon",
-      "permalink": "/tags/neon"
+      "permalink": "/blog/tags/neon"
     }
   ],
   "readingTime": 2.67,
@@ -77,10 +77,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
-    "permalink": "/ai_gtm"
+    "permalink": "/blog/ai_gtm"
   },
   "nextItem": {
     "title": "Why LLM Extensibility is Vital to API Vendors",
-    "permalink": "/llm_extensibility_vital_to_api_vendors"
+    "permalink": "/blog/llm_extensibility_vital_to_api_vendors"
   }
 }

@@ -3,231 +3,195 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ai_gtm',
-    component: ComponentCreator('/ai_gtm', '1ba'),
+    path: '/blog',
+    component: ComponentCreator('/blog', '2f6'),
     exact: true
   },
   {
-    path: '/archive',
-    component: ComponentCreator('/archive', '51a'),
+    path: '/blog/ai_gtm',
+    component: ComponentCreator('/blog/ai_gtm', 'e18'),
     exact: true
   },
   {
-    path: '/authors',
-    component: ComponentCreator('/authors', '498'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/dry_with_api_flask',
-    component: ComponentCreator('/dry_with_api_flask', 'f81'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/layer_neon_copilot_extension',
-    component: ComponentCreator('/layer_neon_copilot_extension', 'df1'),
+    path: '/blog/dry_with_api_flask',
+    component: ComponentCreator('/blog/dry_with_api_flask', '823'),
     exact: true
   },
   {
-    path: '/llm_extensibility',
-    component: ComponentCreator('/llm_extensibility', '73b'),
+    path: '/blog/layer_neon_copilot_extension',
+    component: ComponentCreator('/blog/layer_neon_copilot_extension', '46c'),
     exact: true
   },
   {
-    path: '/llm_extensibility_vital_to_api_vendors',
-    component: ComponentCreator('/llm_extensibility_vital_to_api_vendors', '44e'),
+    path: '/blog/llm_extensibility',
+    component: ComponentCreator('/blog/llm_extensibility', '4fa'),
     exact: true
   },
   {
-    path: '/tags',
-    component: ComponentCreator('/tags', '626'),
+    path: '/blog/llm_extensibility_vital_to_api_vendors',
+    component: ComponentCreator('/blog/llm_extensibility_vital_to_api_vendors', 'bf3'),
     exact: true
   },
   {
-    path: '/tags/agent-experience-ax',
-    component: ComponentCreator('/tags/agent-experience-ax', 'e18'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/tags/ai-agents',
-    component: ComponentCreator('/tags/ai-agents', '2d8'),
+    path: '/blog/tags/agent-experience-ax',
+    component: ComponentCreator('/blog/tags/agent-experience-ax', '288'),
     exact: true
   },
   {
-    path: '/tags/ai-go-to-market',
-    component: ComponentCreator('/tags/ai-go-to-market', '742'),
+    path: '/blog/tags/ai-agents',
+    component: ComponentCreator('/blog/tags/ai-agents', 'b67'),
     exact: true
   },
   {
-    path: '/tags/api',
-    component: ComponentCreator('/tags/api', '37e'),
+    path: '/blog/tags/ai-go-to-market',
+    component: ComponentCreator('/blog/tags/ai-go-to-market', '14a'),
     exact: true
   },
   {
-    path: '/tags/api-flask',
-    component: ComponentCreator('/tags/api-flask', 'c31'),
+    path: '/blog/tags/api',
+    component: ComponentCreator('/blog/tags/api', '539'),
     exact: true
   },
   {
-    path: '/tags/developer-experience-dx',
-    component: ComponentCreator('/tags/developer-experience-dx', '062'),
+    path: '/blog/tags/api-flask',
+    component: ComponentCreator('/blog/tags/api-flask', 'e07'),
     exact: true
   },
   {
-    path: '/tags/dry',
-    component: ComponentCreator('/tags/dry', '93d'),
+    path: '/blog/tags/developer-experience-dx',
+    component: ComponentCreator('/blog/tags/developer-experience-dx', '8f3'),
     exact: true
   },
   {
-    path: '/tags/git-hub-copilot',
-    component: ComponentCreator('/tags/git-hub-copilot', 'aa7'),
+    path: '/blog/tags/dry',
+    component: ComponentCreator('/blog/tags/dry', '612'),
     exact: true
   },
   {
-    path: '/tags/grubhub',
-    component: ComponentCreator('/tags/grubhub', 'db8'),
+    path: '/blog/tags/git-hub-copilot',
+    component: ComponentCreator('/blog/tags/git-hub-copilot', 'f4d'),
     exact: true
   },
   {
-    path: '/tags/llm-extensibility',
-    component: ComponentCreator('/tags/llm-extensibility', '37e'),
+    path: '/blog/tags/grubhub',
+    component: ComponentCreator('/blog/tags/grubhub', '962'),
     exact: true
   },
   {
-    path: '/tags/marshmallow',
-    component: ComponentCreator('/tags/marshmallow', '899'),
+    path: '/blog/tags/llm-extensibility',
+    component: ComponentCreator('/blog/tags/llm-extensibility', '127'),
     exact: true
   },
   {
-    path: '/tags/neon',
-    component: ComponentCreator('/tags/neon', '361'),
+    path: '/blog/tags/marshmallow',
+    component: ComponentCreator('/blog/tags/marshmallow', '160'),
     exact: true
   },
   {
-    path: '/tags/one-of-schema',
-    component: ComponentCreator('/tags/one-of-schema', '4f0'),
+    path: '/blog/tags/neon',
+    component: ComponentCreator('/blog/tags/neon', '3e6'),
     exact: true
   },
   {
-    path: '/tags/sql-alchemy',
-    component: ComponentCreator('/tags/sql-alchemy', '889'),
+    path: '/blog/tags/one-of-schema',
+    component: ComponentCreator('/blog/tags/one-of-schema', 'ca8'),
     exact: true
   },
   {
-    path: '/tags/vs-code',
-    component: ComponentCreator('/tags/vs-code', 'c0a'),
+    path: '/blog/tags/sql-alchemy',
+    component: ComponentCreator('/blog/tags/sql-alchemy', 'b95'),
     exact: true
   },
   {
-    path: '/vscode_grubhub_extension',
-    component: ComponentCreator('/vscode_grubhub_extension', '9dc'),
+    path: '/blog/tags/vs-code',
+    component: ComponentCreator('/blog/tags/vs-code', '3c4'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '704'),
+    path: '/blog/vscode_grubhub_extension',
+    component: ComponentCreator('/blog/vscode_grubhub_extension', 'f51'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', 'a56'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '203'),
+        path: '/',
+        component: ComponentCreator('/', '061'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'a5c'),
+            path: '/',
+            component: ComponentCreator('/', '360'),
             routes: [
               {
-                path: '/docs/',
-                component: ComponentCreator('/docs/', 'bc1'),
+                path: '/demo-mcp-server',
+                component: ComponentCreator('/demo-mcp-server', 'f4e'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/',
-                component: ComponentCreator('/docs/deployments/', '102'),
+                path: '/generator',
+                component: ComponentCreator('/generator', '065'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/copilot',
-                component: ComponentCreator('/docs/deployments/copilot', '757'),
+                path: '/management-dashboard/',
+                component: ComponentCreator('/management-dashboard/', 'c89'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/gemini',
-                component: ComponentCreator('/docs/deployments/gemini', 'a47'),
+                path: '/management-dashboard/analytics',
+                component: ComponentCreator('/management-dashboard/analytics', 'dde'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/gpt',
-                component: ComponentCreator('/docs/deployments/gpt', '7b3'),
+                path: '/management-dashboard/prompts',
+                component: ComponentCreator('/management-dashboard/prompts', '2d4'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/vs-code',
-                component: ComponentCreator('/docs/deployments/vs-code', '3ef'),
+                path: '/management-dashboard/resources',
+                component: ComponentCreator('/management-dashboard/resources', '0e8'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployments/web-widget',
-                component: ComponentCreator('/docs/deployments/web-widget', 'f6b'),
+                path: '/management-dashboard/tools',
+                component: ComponentCreator('/management-dashboard/tools', '96d'),
                 exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/management-dashboard/',
-                component: ComponentCreator('/docs/management-dashboard/', 'b28'),
+                path: '/',
+                component: ComponentCreator('/', 'fc9'),
                 exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/analytics',
-                component: ComponentCreator('/docs/management-dashboard/analytics', '28e'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/deploying',
-                component: ComponentCreator('/docs/management-dashboard/deploying', '3bf'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/rag-config',
-                component: ComponentCreator('/docs/management-dashboard/rag-config', 'baf'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/rag-testing',
-                component: ComponentCreator('/docs/management-dashboard/rag-testing', '486'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/sources',
-                component: ComponentCreator('/docs/management-dashboard/sources', 'acf'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/docs/management-dashboard/tools',
-                component: ComponentCreator('/docs/management-dashboard/tools', '2f7'),
-                exact: true,
-                sidebar: "defaultSidebar"
+                sidebar: "tutorialSidebar"
               }
             ]
           }
         ]
       }
     ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '80c'),
-    exact: true
   },
   {
     path: '*',

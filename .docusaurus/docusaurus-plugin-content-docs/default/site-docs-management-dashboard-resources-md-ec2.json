@@ -1,0 +1,26 @@
+{
+  "id": "management-dashboard/resources",
+  "title": "Resources",
+  "description": "Layer uses resources to feed its RAG (Retrieval-Augmented Generation) system, which provides specific and accurate context to agents. These resources may consist of your product's documentation, FAQs, GitHub repositories, and other helpful context that can be referenced by your LLM extensions.",
+  "source": "@site/docs/management-dashboard/resources.md",
+  "sourceDirName": "management-dashboard",
+  "slug": "/management-dashboard/resources",
+  "permalink": "/management-dashboard/resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Management Dashboard",
+    "permalink": "/management-dashboard/"
+  },
+  "next": {
+    "title": "Prompts",
+    "permalink": "/management-dashboard/prompts"
+  }
+}

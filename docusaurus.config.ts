@@ -25,15 +25,15 @@ const config: Config = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
-  scripts: [
-    {
-      src: "https://widget.buildwithlayer.com",
-      type: "text/javascript",
-      id: "layer-widget-script",
-      "api-key": "b962b39e-2fc6-4fa9-b1a0-82cc46db7481",
-      "palette-mode": "dark",
-    },
-  ],
+  // scripts: [
+  //   {
+  //     src: "https://widget.buildwithlayer.com",
+  //     type: "text/javascript",
+  //     id: "layer-widget-script",
+  //     "api-key": "b962b39e-2fc6-4fa9-b1a0-82cc46db7481",
+  //     "palette-mode": "dark",
+  //   },
+  // ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -47,18 +47,17 @@ const config: Config = {
     [
       "classic",
       {
-        // docs: {
-        //   sidebarPath: "./sidebars.ts",
-        //   // Please change this to your repo.
-        //   routeBasePath: "/",
-        // },
+        docs: {
+          sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
           },
-          routeBasePath: "/",
+          routeBasePath: "/blog",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -108,17 +107,22 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "tutorialSidebar",
-        //   position: "left",
-        //   label: "Documentation",
-        // },
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Documentation",
+        },
         // { to: "/api", label: "API Reference", position: "left" },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://buildwithlayer.com",
-          label: "buildwithlayer.com",
+          label: "Layer Website",
+          position: "right",
+        },
+        {
+          href: "https://dashboard.buildwithlayer.com",
+          label: "Management Dashboard",
           position: "right",
         },
       ],
