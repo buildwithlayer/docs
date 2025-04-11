@@ -121,6 +121,7 @@ To publish it:
   - NPM_TOKEN: An NPM Token with publish access to the NPM organization you specified in the server generation
   - GH_USERNAME: The username that show up on the Github release on push to main
   - GH_EMAIL: The email that show up on the Github release on push to main
+  - GH_TOKEN: A Github access token with access to create releases in your repo
 - Push your generated server to the main branch of your repo
 
 You should then see actions running to create a Github release then publish to NPM.
