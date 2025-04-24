@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/mcp_experience",
+  "source": "@site/blog/mcp_experience.mdx",
+  "title": "Why MCP Experience Matters",
+  "description": "Introducing MCP Experience (MCPX): An exploration of what makes a great MCP experience both for the end-users of MCP servers and for the engineering teams building them.",
+  "date": "2025-04-24T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "MCP",
+      "permalink": "/blog/tags/mcp"
+    },
+    {
+      "inline": true,
+      "label": "MCPX",
+      "permalink": "/blog/tags/mcpx"
+    },
+    {
+      "inline": true,
+      "label": "MCP Experience",
+      "permalink": "/blog/tags/mcp-experience"
+    }
+  ],
+  "readingTime": 4.515,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Jonah Katz",
+      "title": "Co-Founder and CEO @ Layer",
+      "url": "https://www.linkedin.com/in/jonahkatz1/",
+      "imageURL": "https://media.licdn.com/dms/image/v2/D4D03AQH2LNM38t56gw/profile-displayphoto-shrink_400_400/B4DZUFQFoiHwAg-/0/1739549859357?e=1750896000&v=beta&t=3JelS5353YAxkDraXWzayDfBU2TYxuIwUuPOWpgaTH0",
+      "key": "jkatz",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "id": "mcp_experience",
+    "slug": "mcp_experience",
+    "title": "Why MCP Experience Matters",
+    "authors": [
+      "jkatz"
+    ],
+    "date": "2025-04-24T00:00:00.000Z",
+    "description": "Introducing MCP Experience (MCPX): An exploration of what makes a great MCP experience both for the end-users of MCP servers and for the engineering teams building them.",
+    "tags": [
+      "MCP",
+      "MCPX",
+      "MCP Experience"
+    ],
+    "keywords": [
+      "MCP",
+      "MCPX",
+      "MCP Experience"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
+    "permalink": "/blog/vscode_grubhub_extension"
+  }
+}

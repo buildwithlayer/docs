@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Why MCP Experience Matters",
+      "permalink": "/blog/mcp_experience",
+      "unlisted": false,
+      "date": "2025-04-24T00:00:00.000Z"
+    },
+    {
       "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
       "permalink": "/blog/vscode_grubhub_extension",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/llm_extensibility_vital_to_api_vendors",
       "unlisted": false,
       "date": "2025-02-13T00:00:00.000Z"
-    },
-    {
-      "title": "LLM Extensibility 101",
-      "permalink": "/blog/llm_extensibility",
-      "unlisted": false,
-      "date": "2025-01-28T00:00:00.000Z"
     }
   ]
 }

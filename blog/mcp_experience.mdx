@@ -1,0 +1,68 @@
+---
+id: mcp_experience
+slug: mcp_experience
+title: "Why MCP Experience Matters"
+authors: [jkatz]
+date: 2025-04-24
+description: "Introducing MCP Experience (MCPX): An exploration of what makes a great MCP experience both for the end-users of MCP servers and for the engineering teams building them."
+tags: [MCP, MCPX, MCP Experience]
+keywords: [MCP, MCPX, MCP Experience]
+---
+
+# Why MCP Experience Matters
+
+<head>
+  <title>Layer AI Blog | Why MCP Experience Matters</title>
+  <meta property="og:title" content="Layer AI Blog | Why MCP Experience Matters"></meta>
+</head>
+
+import {TwitterTweetEmbed} from 'react-twitter-embed';
+import ReactPlayer from 'react-player'
+
+This past weekend, at an MCP Hackathon in San Francisco, I watched several teams use our platform to build MCP servers. There’s nothing quite like being in a room watching people try to use your product to build stuff live.
+
+That experience reinforced a reality I’ve witnessed time and again: While model context protocol (MCP) has legitimate potential to help companies distribute products through a new and widely-used channel (AI tools), it’s hard to build good MCP servers. This is [why](https://www.linkedin.com/feed/update/urn:li:activity:7315817752177319940/) out of 2500+ MCP servers on Smithery, less than 10 have truly meaningful adoption.
+
+In our day-to-day work helping customers build and improve MCP servers, we’ve seen a major gap between a “sleek demo” and a genuinely useful and reliable server that can withstand real-world demands. Our team has spent a lot of time thinking about what makes a great MCP Experience (MCPX), and there are two distinct personas to design for:
+- **MCP Users,** who want an MCP server they can trust to just “work”; and
+- **MCP Builders,** who need to be able to:
+    - easily drop-in and update OpenAPI specs (most of which are broken)
+    - select and edit tools
+    - construct prompts / workflows
+    - get visibility into usage
+    - run evals
+    - rapidly test, iterate, and deploy new servers
+    - stay up to date with best practices as protocol support evolves
+
+If these two perspectives aren’t thoughtfully addressed, teams miss out on the full potential of MCP.
+
+## The User Perspective
+
+A great MCP experience starts with discoverability—how do users find the server in the first place? This is generally best done through your docs or platform (e.g. we are working with Clerk to implement a version of the GIF below on their docs). Eventually, in addition to docs, MCP servers will be discovered through an official registry. MCP Clients will have access to hundreds of servers and be able to hit the most relevant one(s) based on what a user wants to do.
+
+<ReactPlayer playing controls url='/ClerkMCP.mov' />
+<br />
+
+Once a server is installed, authentication should be as frictionless as possible. For serious usage, the server must be able to handle the common workflows users are taking with a given platform or API—whether that’s assigning a support ticket in Zendesk or quickstarting a Clerk project automatically. It’s important to thoughtfully construct these workflows if you want AI tools like ChatGPT and Cursor to be able to take real work off the table for users.
+
+## The Builder Perspective
+
+Assuming an OpenAPI spec is valid (dangerous assumption), it’s surprisingly easy to stand up a basic MCP server. Many companies are doing this now for the marketing headline. The real challenge comes in when that MCP server starts getting legitimate usage. Now all the sudden, you need to be able to see how people are using it, understand what’s going wrong and why; and from that information, you need to be able to act quickly—iterate on the server, add new tools, edit prompts and resources, run evals, and push better versions.
+
+<TwitterTweetEmbed tweetId="1910738689753571350" />
+
+Another consideration is the fact that MCP is supported differently across clients. Useful servers like [Neon’s](https://github.com/neondatabase-labs/mcp-server-neon) implement more than just [tools](https://modelcontextprotocol.io/docs/concepts/tools), but most MCP clients only support tools (even Claude doesn't support the full protocol). This leaves your engineers to manually implement features like resources, prompts, roots, sampling, and notifications. As more of the protocol is adopted by clients, companies need to adapt their servers to provide a great MCP experience that is unified across all the AI-native environments their users work in.
+
+## The Payoff: Why a Great MCP Experience Truly Matters
+
+So why push forward at all? Because MCP is a giant distribution channel. ChatGPT alone has more than 100 million daily users. AI coding tools like Cursor and GitHub Copilot each have over a million daily users. What does this mean? Companies **need to** and **will** find ways to sell their products to this massive user base. MCP is the best tool for that yet.
+
+And this is not just hypothetical. It’s already happening in the real world. For example:
+- **Supabase's** [integration with Lovable](https://docs.lovable.dev/integrations/supabase) enables users to directly spin up databases in Supabase (often without even realizing it). This is driving net new usage and traffic to Supabase.
+- **Netlify** built integrations with ChatGPT and [Windsurf](https://www.netlify.com/press/windsurf-netlify-ai-ide-native-deployment-integration/). In a blogpost on [Agent Experience (AX)](https://docs.buildwithlayer.com/blog/ai_gtm), the CEO of Netlify, Matt Biilmann, described how they’ve seen over [1,000 new sites created daily](https://biilmann.blog/articles/introducing-ax/) through their ChatGPT plug-in. 
+
+For users, the experience can be magical. It transforms AI tools like ChatGPT, Cursor, and Claude from isolated chatbots into agents in the real world. 
+
+The other day, I was setting up a new QuickBooks account for our company and copy-pasted a screenshot into ChatGPT to ask for help. ChatGPT answered my question and then said, “Would you like me to help you set up QuickBooks?”. I got excited for a minute, and said, “Yes, can you do it for me?” only to have it respond, “Sorry, I can’t directly do things in QuickBooks for you”. 
+
+This is what MCP enables. And as AI usage continues to grow, MCP servers will become some of the primary interfaces through which people (and agents) discover, set up, and consume software. 

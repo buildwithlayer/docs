@@ -82,6 +82,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Why MCP Experience Matters",
+    "permalink": "/blog/mcp_experience"
+  },
   "nextItem": {
     "title": "AI Go-To-Market: Why Agents Are Your Newest Path to Adoption",
     "permalink": "/blog/ai_gtm"

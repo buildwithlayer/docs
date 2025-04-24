@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '2f6'),
+    component: ComponentCreator('/blog', '47d'),
     exact: true
   },
   {
@@ -40,6 +40,11 @@ export default [
   {
     path: '/blog/llm_extensibility_vital_to_api_vendors',
     component: ComponentCreator('/blog/llm_extensibility_vital_to_api_vendors', 'bf3'),
+    exact: true
+  },
+  {
+    path: '/blog/mcp_experience',
+    component: ComponentCreator('/blog/mcp_experience', '459'),
     exact: true
   },
   {
@@ -100,6 +105,21 @@ export default [
   {
     path: '/blog/tags/marshmallow',
     component: ComponentCreator('/blog/tags/marshmallow', '160'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/mcp',
+    component: ComponentCreator('/blog/tags/mcp', '226'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/mcp-experience',
+    component: ComponentCreator('/blog/tags/mcp-experience', '017'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/mcpx',
+    component: ComponentCreator('/blog/tags/mcpx', 'f9e'),
     exact: true
   },
   {
