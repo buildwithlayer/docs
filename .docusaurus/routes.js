@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '623'),
+    component: ComponentCreator('/blog', 'df8'),
+    exact: true
+  },
+  {
+    path: '/blog/5_key_takeaways',
+    component: ComponentCreator('/blog/5_key_takeaways', '870'),
     exact: true
   },
   {
@@ -94,7 +99,7 @@ export default [
   },
   {
     path: '/blog/tags/agent-experience-ax',
-    component: ComponentCreator('/blog/tags/agent-experience-ax', '288'),
+    component: ComponentCreator('/blog/tags/agent-experience-ax', '6af'),
     exact: true
   },
   {
@@ -104,12 +109,17 @@ export default [
   },
   {
     path: '/blog/tags/ai-agents',
-    component: ComponentCreator('/blog/tags/ai-agents', 'b67'),
+    component: ComponentCreator('/blog/tags/ai-agents', '239'),
     exact: true
   },
   {
     path: '/blog/tags/ai-go-to-market',
-    component: ComponentCreator('/blog/tags/ai-go-to-market', '14a'),
+    component: ComponentCreator('/blog/tags/ai-go-to-market', '466'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ai-integration',
+    component: ComponentCreator('/blog/tags/ai-integration', '8c1'),
     exact: true
   },
   {
@@ -119,7 +129,7 @@ export default [
   },
   {
     path: '/blog/tags/api',
-    component: ComponentCreator('/blog/tags/api', '539'),
+    component: ComponentCreator('/blog/tags/api', '09c'),
     exact: true
   },
   {
@@ -129,7 +139,7 @@ export default [
   },
   {
     path: '/blog/tags/developer-experience-dx',
-    component: ComponentCreator('/blog/tags/developer-experience-dx', '8f3'),
+    component: ComponentCreator('/blog/tags/developer-experience-dx', 'fd6'),
     exact: true
   },
   {
@@ -154,7 +164,7 @@ export default [
   },
   {
     path: '/blog/tags/llm-extensibility',
-    component: ComponentCreator('/blog/tags/llm-extensibility', '127'),
+    component: ComponentCreator('/blog/tags/llm-extensibility', '619'),
     exact: true
   },
   {
@@ -164,7 +174,7 @@ export default [
   },
   {
     path: '/blog/tags/mcp',
-    component: ComponentCreator('/blog/tags/mcp', 'e6a'),
+    component: ComponentCreator('/blog/tags/mcp', '8db'),
     exact: true
   },
   {
@@ -195,6 +205,11 @@ export default [
   {
     path: '/blog/tags/vs-code',
     component: ComponentCreator('/blog/tags/vs-code', '3c4'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/webinar',
+    component: ComponentCreator('/blog/tags/webinar', 'bd9'),
     exact: true
   },
   {

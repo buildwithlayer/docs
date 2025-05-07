@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Unlocking the Future of AI Integration: Five Takeaways From Our ‘MCP in the Wild’ Webinar",
+      "permalink": "/blog/5_key_takeaways",
+      "unlisted": false,
+      "date": "2025-05-08T00:00:00.000Z"
+    },
+    {
       "title": "MCP Is a Trojan Horse 🐴",
       "permalink": "/blog/mcp_trojan_horse",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/ai_gtm",
       "unlisted": false,
       "date": "2025-02-25T00:00:00.000Z"
-    },
-    {
-      "title": "How Layer Built Neon’s Copilot Extension",
-      "permalink": "/blog/layer_neon_copilot_extension",
-      "unlisted": false,
-      "date": "2025-02-20T00:00:00.000Z"
     }
   ]
 }
