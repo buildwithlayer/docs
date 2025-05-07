@@ -1,0 +1,80 @@
+{
+  "permalink": "/blog/mcp_trojan_horse",
+  "source": "@site/blog/mcp_is_a_trojan_horse.mdx",
+  "title": "MCP Is a Trojan Horse 🐴",
+  "description": "Contrary to what you might believe, this being a tech blog and all, I am not actually referring to malware when I speak of a Trojan horse (although, ironically, MCP servers can be about as insecure as software can get). Nope—instead, I’m here to employ the mythological Trojan Horse as a metaphor to explain how MCP will be used to sell you more services and goods, perhaps without you even noticing.",
+  "date": "2025-05-07T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "MCP",
+      "permalink": "/blog/tags/mcp"
+    },
+    {
+      "inline": true,
+      "label": "AI Monetization",
+      "permalink": "/blog/tags/ai-monetization"
+    },
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    },
+    {
+      "inline": true,
+      "label": "LLM",
+      "permalink": "/blog/tags/llm"
+    }
+  ],
+  "readingTime": 5.965,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Andrew Hamilton",
+      "title": "Co-Founder and CTO @ Layer",
+      "url": "https://github.com/andrewlayer",
+      "imageURL": "https://avatars.githubusercontent.com/u/135887157?v=4",
+      "key": "aham",
+      "page": null
+    },
+    {
+      "name": "Jonathan Zalman",
+      "title": "Head of Marketing @ Layer",
+      "url": "https://www.linkedin.com/in/jzalman/",
+      "imageURL": "https://media.licdn.com/dms/image/v2/D5603AQEUMO7QJojrJA/profile-displayphoto-shrink_400_400/B56ZR15uGIHQAg-/0/1737144853170?e=1752105600&v=beta&t=E2oGgJhhvMXjVnqbzhBAxyXIq_f7qmXZkitWIn6e3oU",
+      "key": "jzalman",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "id": "mcp_trojan_horse",
+    "slug": "mcp_trojan_horse",
+    "title": "MCP Is a Trojan Horse 🐴",
+    "authors": [
+      "aham",
+      "jzalman"
+    ],
+    "date": "2025-05-07T00:00:00.000Z",
+    "descripion": "MCP is like a Trojan Horse, a new way for companies to sell you services, often without you noticing. Learn how MCP enables this.",
+    "tags": [
+      "MCP",
+      "AI Monetization",
+      "AI",
+      "LLM"
+    ],
+    "keywords": [
+      "MCP",
+      "AI Monetization",
+      "AI",
+      "LLM",
+      "Model Context Protocol",
+      "Trojan Horse",
+      "AI Sales"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Why MCP Experience Matters",
+    "permalink": "/blog/mcp_experience"
+  }
+}

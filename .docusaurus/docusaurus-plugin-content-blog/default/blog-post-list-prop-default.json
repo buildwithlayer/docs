@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "MCP Is a Trojan Horse 🐴",
+      "permalink": "/blog/mcp_trojan_horse",
+      "unlisted": false,
+      "date": "2025-05-07T00:00:00.000Z"
+    },
+    {
       "title": "Why MCP Experience Matters",
       "permalink": "/blog/mcp_experience",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/layer_neon_copilot_extension",
       "unlisted": false,
       "date": "2025-02-20T00:00:00.000Z"
-    },
-    {
-      "title": "Why LLM Extensibility is Vital to API Vendors",
-      "permalink": "/blog/llm_extensibility_vital_to_api_vendors",
-      "unlisted": false,
-      "date": "2025-02-13T00:00:00.000Z"
     }
   ]
 }

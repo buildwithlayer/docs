@@ -1,0 +1,105 @@
+---
+id: mcp_trojan_horse
+slug: mcp_trojan_horse
+title: "MCP Is a Trojan Horse 🐴"
+authors: [aham, jzalman]
+date: 2025-05-07
+descripion: MCP is like a Trojan Horse, a new way for companies to sell you services, often without you noticing. Learn how MCP enables this.
+tags: [MCP, AI Monetization, AI, LLM]
+keywords: [MCP, AI Monetization, AI, LLM, Model Context Protocol, Trojan Horse, AI Sales]
+---
+import BarteringImageUrl from './assets/mcp_is_a_trojan_horse/farmer_trading_chicken.png';
+import YellingPhoneMan from './assets/mcp_is_a_trojan_horse/yelling_phone_man.png';
+import PhonesAmazon from './assets/mcp_is_a_trojan_horse/phones_amazon.png';
+import MCPTwilio from './assets/mcp_is_a_trojan_horse/mcp_twilio.png';
+import Opentools from './assets/mcp_is_a_trojan_horse/opentools.png';
+import ElevenLabs from './assets/mcp_is_a_trojan_horse/eleven_chat.png';
+import CreditCard from './assets/mcp_is_a_trojan_horse/credit_card.png';
+import MonetizedMCP from './assets/mcp_is_a_trojan_horse/monetized_mcp.png';
+
+
+# MCP Is a Trojan Horse 🐴
+Contrary to what you might believe, this being a tech blog and all, I am not actually referring to malware when I speak of a Trojan horse (although, ironically, MCP servers can be about as insecure as software can get). Nope—instead, I’m here to employ the mythological Trojan Horse as a metaphor to explain how MCP will be used to sell you more services and goods, perhaps without you even noticing.
+It’s clever, yes—and for companies, it is poised to be an incredibly effective new channel for reaching customers. And as a consumer, it’s worth keeping an eye on if you want to stay mindful of your spending.
+
+
+## The Evolution of Selling Stuff 
+Long, long ago, before you spent seven hours a day staring at an LED screen, people used to do this thing called bartering—this for that. Two humans would speak with each other face-to-face and negotiate a price over the exchange of goods or services. Here is an AI depiction of what that might have looked like:
+
+<div style={{textAlign: 'center'}}>
+  <img src={BarteringImageUrl} alt="Farmer trading chicken" width="500" />
+</div>
+
+Fast-forward an indiscriminate number of years and you have telemarketing. Little needs to be said about this practice other than it increased productivity tremendously. Rather than needing to sell face-to-face, a single salesperson could call 100 people a day, breaking down barriers of space and time.
+
+<div style={{textAlign: 'center'}}>
+  <img src={YellingPhoneMan} alt="Yelling Phone Man" width="500" />
+</div>
+
+
+Finally, we jump to where we are today. For most B2C sales, a consumer no longer needs to speak with a salesperson to buy what they want. Instead you’ll go to an e-commerce site like Amazon and purchase goods yourself.
+
+<div style={{textAlign: 'center'}}>
+  <img src={PhonesAmazon} alt="Phones amazon" width="500" />
+</div>
+
+Case in point: As we look through this line of history, we can see that the purchasing of goods has become easier and easier. 
+
+You might ask, Could it get even easier than this?
+
+
+## How Companies Will Sell You Stuff In The (Very Near) Future
+As of writing, Google gets about 14 billion searches a day. That is a ton of traffic, but Google has been around for 25+ years. ChatGPT, on the other hand, has been around for just shy of two years and already gets 1B+ queries per day. And yet, despite the amount of traffic ChatGPT gets, there are no ads on the platform, meaning that it isn't really a place where you are "advertised" products—yet. 
+MCP will enable this.
+
+### Wait. MCP? What Is That?
+This [article](https://waleedk.medium.com/what-is-mcp-and-why-you-should-pay-attention-31524da7733f) by AI expert Waleed Kadous describes MCP, or Model Context Protocol, quite well, so start there. At a high level, I often describe it as the App Store for LLMs. MCP allows third parties to build on top of any LLM system in the world. So in the illustration below, if Twilio builds an MCP server, it can be accessed by any LLM AI app that supports MCP:
+
+<div style={{textAlign: 'center'}}>
+  <img src={MCPTwilio} alt="Twilio" width="500" />
+</div>
+
+### How People Discover MCP Servers 
+There are two primary ways that people can discover MCP servers—via registries or suggestive usage. The first one is simple enough. There are several registries that list available MCP servers, such as Opentools (pictured below).
+
+<div style={{textAlign: 'center'}}>
+  <img src={Opentools} alt="opentools" width="500" />
+</div>
+
+The more interesting of the adoption route is suggestive usage. Imagine yourself, it's a peaceful evening in upstate New York, you are sitting in your family estate vibe coding with ChatGPT. Then you realize you want to make it so that your app calls you late at night when you are lonely. ChatGPT doesn't have this built in functionality, but it knows that this is something the ElevenLabs MCP server can handle, so it asks you if you would like to install it:
+
+<div style={{textAlign: 'center'}}>
+  <img src={ElevenLabs} alt="ChatGPT Elevenlabs" width="500" />
+</div>
+
+In the image above, you can see the prompt to install the MCP server. Although you may not have known that Elevenlabs even existed, let alone its MCP capabilities, ChatGPT knew what you wanted to get done—and found the best tool for the job.
+
+It also knew that you’d likely be willing to pay for it.
+
+We can already see integrations like this in extensions like Lovable + Supabase, Bolt.new + Netlify, and many other applications. The new normal is transitioning to trusting the judgement of these LLMs.
+
+## So Who Makes the Money? 
+Ahh, now that is the golden question. What happens when you enable an MCP server depends on that server's implementation. With that said, I will answer this question with a single graphic:
+
+<div style={{textAlign: 'center'}}>
+  <img src={CreditCard} alt="Credit Card" width="500" />
+</div>
+
+When you ask ChatGPT to use a service like an MCP server, you are essentially asking ChatGPT to spend money for you. Although it may ask you, "Would you like to use this service?”, most users will just say "yes"—and off to the monetization races we go! 
+
+## The Tech 
+So, how exactly will MCP pull off this subtle maneuver? Let’s break down the two key technological strategies that will enable it: early provisioning and agentic spending.
+
+### Early Provisioning 
+Traditionally, provisioning occurs only after you explicitly sign up for something—like Google Drive giving you 25GB of free storage after you create your account. MCP tweaks this model slightly by quietly provisioning a small taste of a service—effectively signing you up in the background—before you explicitly realize you want it. Imagine you’re chatting with ChatGPT, and suddenly you’re smoothly interacting with ElevenLabs’ AI voice technology without formally registering first. That frictionless first experience isn’t accidental; it’s strategic early provisioning—via MCP—at work.
+
+### "Agentic" Spending 
+Agentic spending means the AI itself makes financial transactions on your behalf. MCP enables exactly this: once provisioned, agents can handle small payments automatically, unlocking new, more “seamless” user experiences—as well as new, more “seamless” revenue opportunities for businesses that enable their services through MCP servers.
+
+Importantly, it’s the MCP client—such as ChatGPT—that manages your credit card or payment method, effectively lending it out to these agent services once you approve their use. In other words, the entire user experience—provisioning the resources, authorizing transactions, and handling payments—is fully owned by the client itself. This marks a notable UX shift from traditional models, in which the client directly orchestrates provisioning, authorization, and payments within the agent-driven workflow.
+For example, I built a VSCode chat extension integrated with MCP to casually order a cheeseburger from Grubhub. Behind the scenes, the agent handled the entire ordering process—including API calls and payments—with minimal direct input.
+At a recent hackathon, we met the founder of MonetizedMCP, a platform that enables MCP servers to programmatically facilitate payments between agents and service providers. With a few API calls, agents can query prices, choose payment methods (crypto like USDC), and autonomously execute purchases. This frictionless, agent-driven marketplace isn’t just convenient—it’s the future of how businesses could monetize AI with MCP.
+
+<div style={{textAlign: 'center'}}>
+  <img src={MonetizedMCP} alt="monetized" width="500" />
+</div>

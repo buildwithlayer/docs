@@ -54,6 +54,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "MCP Is a Trojan Horse 🐴",
+    "permalink": "/blog/mcp_trojan_horse"
+  },
   "nextItem": {
     "title": "Building a VSCode Chat Extension to Order Me Cheeseburgers",
     "permalink": "/blog/vscode_grubhub_extension"

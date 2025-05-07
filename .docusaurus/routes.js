@@ -3,8 +3,43 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog', '47d'),
+    component: ComponentCreator('/blog', '623'),
     exact: true
   },
   {
@@ -48,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/mcp_trojan_horse',
+    component: ComponentCreator('/blog/mcp_trojan_horse', '16a'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '287'),
     exact: true
@@ -58,6 +98,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/ai',
+    component: ComponentCreator('/blog/tags/ai', 'e71'),
+    exact: true
+  },
+  {
     path: '/blog/tags/ai-agents',
     component: ComponentCreator('/blog/tags/ai-agents', 'b67'),
     exact: true
@@ -65,6 +110,11 @@ export default [
   {
     path: '/blog/tags/ai-go-to-market',
     component: ComponentCreator('/blog/tags/ai-go-to-market', '14a'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ai-monetization',
+    component: ComponentCreator('/blog/tags/ai-monetization', '12f'),
     exact: true
   },
   {
@@ -98,6 +148,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/llm',
+    component: ComponentCreator('/blog/tags/llm', '874'),
+    exact: true
+  },
+  {
     path: '/blog/tags/llm-extensibility',
     component: ComponentCreator('/blog/tags/llm-extensibility', '127'),
     exact: true
@@ -109,7 +164,7 @@ export default [
   },
   {
     path: '/blog/tags/mcp',
-    component: ComponentCreator('/blog/tags/mcp', '226'),
+    component: ComponentCreator('/blog/tags/mcp', 'e6a'),
     exact: true
   },
   {
